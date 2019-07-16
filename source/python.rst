@@ -11,8 +11,9 @@ Installation
 
 Mac OS X and some Linux distributions have Python installed by default.
 	
-Windows users can download the latest version of Python `here <https://www.python.org/downloads/>`_.
-Once installation is done, click the python application file again (it should be in the 
+Windows users can download the latest version of Python from the `website <https://www.python.org/downloads/>`_.
+
+Once installation is done, click the Python application file again (it should be in the 
 Downloads folder as python-<version_number>.exe). A window will pop up. Click on "Modify",
 then select "Next", which leads to "Advanced Options". Tick the box labeled "Add Python
 to environment variables" then click "Install". Python will now be avaliable in both Command
@@ -38,16 +39,16 @@ of built-in functions, constants, types, exceptions, and modules.
 Python Package Index (PyPI)
 ===========================
 
-The `Python Package Index (PyPI) <>`_ is a repository of Python packages. The following
+The `Python Package Index (PyPI) <https://pypi.org/>`_ is a repository of Python packages. The following
 packages form the basis of most data analysis and processing. 
 
 .. note::
 	``pip`` is the Python module installer program. To install a package,
-	enter the command: ``pip install <package_name>`` into Terminal or Command Prompt. 
+	enter the command ``pip install <package_name>`` into Terminal or Command Prompt. 
 	
 .. todo::
 	
-	ipython, numpy, matplotlib, scipy,  
+	ipython, numpy, matplotlib, scipy 
 
 *********
 Tutorials
