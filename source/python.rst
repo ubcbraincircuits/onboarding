@@ -2,6 +2,21 @@
 Python
 ######
 
+Python is a high-level, interpreted programming language that is widely used for 
+scientific analysis and computation.  
+
+*************
+Documentation
+*************
+
+Python Standard Library
+
+Python Package Index (PyPI)
+
+*********
+Tutorials
+*********
+
 ******************
 Anaconda Navigator
 ******************
