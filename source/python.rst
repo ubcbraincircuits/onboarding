@@ -5,6 +5,12 @@ Python
 Python is a high-level, interpreted programming language that is widely used for 
 scientific analysis and computation.  
 
+.. toctree::	
+	:caption: Table of Contents
+	:maxdepth: 3
+	
+	python
+
 ************
 Installation
 ************
@@ -14,7 +20,7 @@ Mac OS X and some Linux distributions have Python installed by default.
 Windows users can download the latest version of Python from the `website <https://www.python.org/downloads/>`_.
 
 Once installation is done, click the Python application file again (it should be in the 
-Downloads folder as python-<version_number>.exe). A window will pop up. Click on "Modify",
+Downloads folder as python-<version_number>.exe). A window will pop up. Click on "Modify"
 then select "Next", which leads to "Advanced Options". Tick the box labeled "Add Python
 to environment variables" then click "Install". Python will now be avaliable in both Command
 Prompt and Windows PowerShell. 
@@ -39,12 +45,41 @@ of built-in functions, constants, types, exceptions, and modules.
 Python Package Index (PyPI)
 ===========================
 
-The `Python Package Index (PyPI) <https://pypi.org/>`_ is a repository of Python packages. The following
-packages form the basis of most data analysis and processing. 
+The `Python Package Index (PyPI) <https://pypi.org/>`_ is a repository of Python packages. 
 
-.. note::
-	``pip`` is the Python module installer program. To install a package,
+.. Important::
+	``pip`` is the Python package installer program. To install a package,
 	enter the command ``pip install <package_name>`` into Terminal or Command Prompt. 
+
+The packages listed here form the basis of most data analysis and processing. 
+	
+IPython
+-------
+
+`IPython <https://pypi.org/project/ipython/>`_ is an interactive Python shell. It is best
+for exploratory and demonstrative purposes, like quickly testing functions or playing around with 
+new commands.
+
+.. admonition:: Example of use
+
+	In a Terminal or Command Prompt window,
+
+	.. image:: /Images/ipython.png
+	   :width: 709px
+	   :height: 158px
+	   :scale: 100 %
+	   :alt: x = 5+2 in IPython
+	   :align: center
+
+.. tip::
+	Try using IPython to go through the examples in this page.
+	
+Numpy 
+-----
+
+`Numpy <>`_
+
+
 	
 .. todo::
 	
