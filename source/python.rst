@@ -84,7 +84,7 @@ support for array and matrix operations, as well as mathematical functions.
 
 *Documentation*: `NumPy Manual <https://docs.scipy.org/doc/numpy/index.html>`_
 
-.. note::
+.. Important::
 	To enable the use of NumPy and other packages during a session, it must be *imported*. 
 	For ease of use, it is standard for most modules to be imported using an abbreviation. 
 	For NumPy, it is typically "np".
@@ -105,15 +105,31 @@ support for array and matrix operations, as well as mathematical functions.
 	
 	::
 	
-		>>> type(potential) # check that the variable potential is indeed an array
+		>>> type(potential) # check that potential is indeed an array
 		numpy.ndarray
 		>>> mean = np.mean(potential)
 		>>> mean
 		-70.232
 		
-.. tip::
+.. Note::
 	Comments in Python begin with ``#``.
+	
+Matplotlib
+----------
 
+`Matplotlib <https://matplotlib.org/>`_ is a 2D plotting library. The pyplot API ``matplotlib.pyplot <https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot>``_
+is a collection of MATLAB-like functions intended for simple plots. 
+
+*Documentation*: ``User's Guide <https://matplotlib.org/users/index.html>``_
+
+.. admonition:: Example of use
+
+	.. highlight:: python
+	
+	::
+	
+		>>> import matplotlib.pyplot as plt
+	
 	
 .. todo::
 	ipython, numpy, matplotlib, scipy 
