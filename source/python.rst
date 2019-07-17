@@ -30,7 +30,7 @@ or Command Prompt (Windows) and enter the command below.
 
 .. code-block:: bash
 
-	python --version
+	$ python --version
 
 *************
 Documentation
@@ -50,15 +50,17 @@ The `Python Package Index (PyPI) <https://pypi.org/>`_ is a repository of Python
 .. Important::
 	``pip`` is the Python package installer program. To install a package,
 	enter the command ``pip install <package_name>`` into Terminal or Command Prompt. 
-
-The packages listed here form the basis of most data analysis and processing. 
 	
+The packages listed here form the basis of most data analysis and processing. 
+
 IPython
 -------
 
-`IPython <https://pypi.org/project/ipython/>`_ is an interactive Python shell. It is best
+`IPython <https://ipython.org/>`_ is an interactive Python shell. It is best
 for exploratory and demonstrative purposes, like quickly testing functions or playing around with 
 new commands.
+
+*Documentation*: `<https://ipython.readthedocs.io/en/stable/>`_
 
 .. admonition:: Example of use
 
@@ -74,15 +76,46 @@ new commands.
 .. tip::
 	Try using IPython to go through the examples in this page.
 	
-Numpy 
+NumPy 
 -----
 
-`Numpy <>`_
+`NumPy <https://www.numpy.org/>`_ is a library for scientific computation, which includes
+support for array and matrix operations, as well as mathematical functions. 
 
+*Documentation*: `NumPy Manual <https://docs.scipy.org/doc/numpy/index.html>`_
+
+.. note::
+	To enable the use of NumPy and other packages during a session, it must be *imported*. 
+	For ease of use, it is standard for most modules to be imported using an abbreviation. 
+	For NumPy, it is typically "np".
+	
+	.. highlight:: python
+	
+	::
+	
+		>>> import numpy as np
+		 
+		 
+.. admonition:: Example of use
+
+	Calculate the average potential of a membrane at rest. Suppose the data was stored in
+	a variable called potential, which is an array of voltages in units of millivolts. 
+	
+	.. highlight:: python
+	
+	::
+	
+		>>> type(potential) # check that the variable potential is indeed an array
+		numpy.ndarray
+		>>> mean = np.mean(potential)
+		>>> mean
+		-70.232
+		
+.. tip::
+	Comments in Python begin with ``#``.
 
 	
 .. todo::
-	
 	ipython, numpy, matplotlib, scipy 
 
 *********
