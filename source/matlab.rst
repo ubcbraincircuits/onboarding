@@ -2,6 +2,12 @@
 MATLAB
 ######
 
+.. toctree::	
+	:caption: Table of Contents
+	:maxdepth: 3
+	
+	matlab
+
 ************
 Installation
 ************
