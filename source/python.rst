@@ -143,10 +143,23 @@ is a collection of MATLAB-like functions intended for simple plots.
 4. SciPy
 --------
 
+`Scipy <https://www.scipy.org/scipylib/index.html>`_ is a library that contains
+submodules for integration, interpolation, signal processing, and statistics, among others.
+
+*Documentation*: `<https://docs.scipy.org/doc/scipy/reference/>`_
+
+.. hint::
+	
+	.. highlight::
+	
+	::
+	
+		>>> from scipy import stats
+		
 5. pandas
 ---------
 
-`pandas <https://pandas.pydata.org/>`_ is a Python library that provides tools for
+`pandas <https://pandas.pydata.org/>`_ is a library that provides tools for
 the creation and manipulation of data structures, as well as data analysis. It is 
 best for working with tabular data (csv, xlsx) or time series data. 
 
@@ -223,9 +236,6 @@ pycodestyle is the Python style guide checker. It was formerly known as pep8.
 		$ 
 		
 	All is well!
-		
-.. todo::
-	ipython, numpy, matplotlib, scipy 
 
 *********
 Tutorials
