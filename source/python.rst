@@ -64,8 +64,8 @@ The `Python Package Index (PyPI) <https://pypi.org/>`_ is a repository of Python
 	
 The packages listed here form the basis of most data analysis and processing. 
 
-IPython
--------
+1. IPython
+----------
 
 `IPython <https://ipython.org/>`_ is an interactive Python shell. It is best
 for exploratory and demonstrative purposes, like quickly testing functions or playing around with 
@@ -87,8 +87,8 @@ new commands.
 .. tip::
 	Try using IPython to go through the examples in this page.
 	
-NumPy 
------
+2. NumPy 
+--------
 
 `NumPy <https://www.numpy.org/>`_ is a library for scientific computation, which includes
 support for array and matrix operations, as well as mathematical functions. 
@@ -124,8 +124,8 @@ support for array and matrix operations, as well as mathematical functions.
 .. Note::
 	Comments in Python begin with ``#``.
 	
-Matplotlib
-----------
+3. Matplotlib
+-------------
 
 `Matplotlib <https://matplotlib.org/>`_ is a 2D plotting library. The pyplot API `matplotlib.pyplot <https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot>`_
 is a collection of MATLAB-like functions intended for simple plots. 
@@ -140,14 +140,48 @@ is a collection of MATLAB-like functions intended for simple plots.
 	
 		>>> import matplotlib.pyplot as plt
 		
-SciPy
------
+4. SciPy
+--------
 
-pandas
-------
+5. pandas
+---------
 
-pycodestyle
------------
+`pandas <https://pandas.pydata.org/>`_ is a Python library that provides tools for
+the creation and manipulation of data structures, as well as data analysis. It is 
+best for working with tabular data (csv, xlsx) or time series data. 
+
+*Documentation*: `<https://pandas.pydata.org/pandas-docs/stable/index.html>`_
+
+.. admonition:: Example of use
+
+	Load in mice.csv and store it in a variable. 
+	
+	.. highlight:: python
+	
+	::
+	
+		>>> import pands as pd
+		>>> mice = pd.read_csv('mice.csv')
+		>>> mice
+		  mouse gender     cage
+		0  M802      M  C3M0009
+		1  M002      F  C3P0032
+		2  M194      F  C3M0009
+		
+	Store the IDs of female mice in a different variable.
+	
+	.. highlight
+	
+	::
+	
+		>>> female_ID = mice.mouse[mice.gender == 'F']
+		>>> female_ID
+		1    M002
+		2    M194
+		Name: mouse, dtype: object
+		
+6. pycodestyle
+--------------
 
 pycodestyle is the Python style guide checker. It was formerly known as pep8.
 
