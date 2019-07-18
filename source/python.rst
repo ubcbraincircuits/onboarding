@@ -28,10 +28,10 @@ Prompt and Windows PowerShell.
 To verify installation or to check the version, open a Terminal window (Mac OS X) 
 or Command Prompt (Windows) and enter the command below.
 
-.. code-block:: bash
+.. code-block:: console
 
-	$ python --version
-
+		$ python --version
+		
 *************
 Documentation
 *************
@@ -105,8 +105,7 @@ support for array and matrix operations, as well as mathematical functions.
 	::
 	
 		>>> import numpy as np
-		 
-		 
+		 	 
 .. admonition:: Example of use
 
 	Calculate the average potential of a membrane at rest. Suppose the data was stored in
@@ -133,7 +132,7 @@ is a collection of MATLAB-like functions intended for simple plots.
 
 *Documentation*: `User's Guide <https://matplotlib.org/users/index.html>`_
 
-.. admonition:: Example of use
+.. hint:: 
 
 	.. highlight:: python
 	
@@ -141,15 +140,56 @@ is a collection of MATLAB-like functions intended for simple plots.
 	
 		>>> import matplotlib.pyplot as plt
 		
-
 SciPy
 -----
 
+pandas
+------
 
 pycodestyle
 -----------
+
+pycodestyle is the Python style guide checker. It was formerly known as pep8.
+
+*Documentation*: `<https://pycodestyle.readthedocs.io/en/latest/>`_
+
+.. admonition:: Example of use
+
+	Note the use of the ``more`` command to see the contents of example.py. 
+
+	.. highlight:: console
 	
+	::
+		
+		$ more example.py
+		a="Welcome to the Brain Circuits Cluster!"
+		
+		print(a)
+		
+		$ python example.py
+		Welcome to the Brain Circuits Cluster!
+		
+		$ pycodestyle example.py
+		example.py:1:2: E225 missing whitespace around operator
+		
+	A space must be added before and after the equal sign. Modify the script and run it through
+	pycodestyle again.
 	
+	.. highlight:: console
+	
+	::
+	
+		$ more example.py
+		a = "Welcome to the Brain Circuits Cluster!"
+		
+		print(a)
+		
+		$ pycodestyle example.py
+		
+		$ 
+		
+	All is well!
+		
 .. todo::
 	ipython, numpy, matplotlib, scipy 
 
