@@ -40,8 +40,19 @@ Python Standard Library
 =======================
 
 The `Python Standard Library <https://docs.python.org/3/library/index.html#library-index>`_ contains descriptions 
-of built-in functions, constants, types, exceptions, and modules. 
+of built-in functions, constants, types, exceptions, and modules.
 
+PEP 8 
+=====
+
+`PEP 8 <https://www.python.org/dev/peps/pep-0008/>`_ is the official Python style guide. It outlines Python coding 
+conventions to promote readability of code and consistency within and between projects. 
+
+.. tip::
+
+	Adopt good coding habits early. To check that your code is compliant with PEP 8 conventions, run 
+	:ref:`pycodestyle<pycodestyle>` on your script.
+	
 Python Package Index (PyPI)
 ===========================
 
@@ -117,10 +128,10 @@ support for array and matrix operations, as well as mathematical functions.
 Matplotlib
 ----------
 
-`Matplotlib <https://matplotlib.org/>`_ is a 2D plotting library. The pyplot API ``matplotlib.pyplot <https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot>``_
+`Matplotlib <https://matplotlib.org/>`_ is a 2D plotting library. The pyplot API `matplotlib.pyplot <https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot>`_
 is a collection of MATLAB-like functions intended for simple plots. 
 
-*Documentation*: ``User's Guide <https://matplotlib.org/users/index.html>``_
+*Documentation*: `User's Guide <https://matplotlib.org/users/index.html>`_
 
 .. admonition:: Example of use
 
@@ -129,6 +140,14 @@ is a collection of MATLAB-like functions intended for simple plots.
 	::
 	
 		>>> import matplotlib.pyplot as plt
+		
+
+SciPy
+-----
+
+
+pycodestyle
+-----------
 	
 	
 .. todo::
