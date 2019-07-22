@@ -1,4 +1,4 @@
 Statistics
 
-.. to-do::
+.. todo::
 	https://github.com/charlesfrye/AppliedStatisticsForNeuroscience
