@@ -14,6 +14,7 @@ Welcome to UBC Dynamic Brain Circuits Cluster Onboarding Portfolio's documentati
    MATLAB <matlab>
    Python <python>
    Jupyter <jupyter>
+   Beginner's Guide to Coding <code>
    Statistics <statistics>
    
 Indices and tables
