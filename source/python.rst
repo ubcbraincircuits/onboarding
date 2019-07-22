@@ -193,7 +193,11 @@ best for working with tabular data (csv, xlsx) or time series data.
 		2    M194
 		Name: mouse, dtype: object
 		
-6. pycodestyle
+6. Seaborn
+----------
+
+		
+7. pycodestyle
 --------------
 
 pycodestyle is the Python style guide checker. It was formerly known as pep8.
@@ -240,6 +244,9 @@ pycodestyle is the Python style guide checker. It was formerly known as pep8.
 *********
 Tutorials
 *********
+
+.. to-do::
+	https://github.com/dasaderi/python_neurobootcamp
 
 ******************
 Anaconda Navigator
