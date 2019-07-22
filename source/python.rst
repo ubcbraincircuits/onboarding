@@ -245,7 +245,7 @@ pycodestyle is the Python style guide checker. It was formerly known as pep8.
 Tutorials
 *********
 
-.. to-do::
+.. todo::
 	https://github.com/dasaderi/python_neurobootcamp
 
 ******************
