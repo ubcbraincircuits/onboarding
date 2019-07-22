@@ -1,4 +1,6 @@
+#########################################
 Beginner's Guide to Coding: Tips & Tricks
+#########################################
 
 Good practices:
 1. Format as you go. 
