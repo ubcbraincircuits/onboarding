@@ -196,6 +196,24 @@ best for working with tabular data (csv, xlsx) or time series data.
 6. Seaborn
 ----------
 
+`Seaborn <https://seaborn.pydata.org/index.html>`_ is a statistical data visualization
+library based on matplotlib. It enables easy creation of appealing figures,
+like violin plots and heat maps. 
+
+*Documentation*: `<https://seaborn.pydata.org/api.html>`_
+
+.. hint::
+	
+	.. highlight:: python
+	
+	::
+	
+		>>> import seaborn as sns
+		
+.. tip::
+	Check out this tutorial from EliteDataScience.com which uses a Pokémon dataset to explore the 
+	features of seaborn: `The Ultimate Python Seaborn Tutorial: Gotta Catch 'Em All <https://elitedatascience.com/python-seaborn-tutorial>`_.
+
 		
 7. pycodestyle
 --------------
