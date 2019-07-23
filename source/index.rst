@@ -17,6 +17,7 @@ Welcome to UBC Dynamic Brain Circuits Cluster Onboarding Portfolio's documentati
    Beginner's Guide to Coding <code>
    Statistics <statistics>
    Data Management <data>
+   Image Analysis <image>
    
 Indices and tables
 ==================
