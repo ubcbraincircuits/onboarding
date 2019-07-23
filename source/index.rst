@@ -16,6 +16,7 @@ Welcome to UBC Dynamic Brain Circuits Cluster Onboarding Portfolio's documentati
    Jupyter <jupyter>
    Beginner's Guide to Coding <code>
    Statistics <statistics>
+   Data Management <data>
    
 Indices and tables
 ==================
