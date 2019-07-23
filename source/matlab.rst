@@ -52,7 +52,9 @@ Tutorials
 MATLAB Onramp
 =============
 
-`MATLAB Onramp <https://www.mathworks.com/learn/tutorials/matlab-onramp.html>`_ is a free online tutorial offered by MATLAB.
+`MATLAB Onramp <https://www.mathworks.com/learn/tutorials/matlab-onramp.html>`_ is a free, interactive online tutorial offered by MATLAB.
+This 2-hour tutorial aims to familiarize new users with the functions and syntax of MATLAB through hands-on excercises with
+feedback and hints. A MATLAB Onramp Certificate is generated with a percentage indicating progress in the course. 
 
 NINC
 ====
