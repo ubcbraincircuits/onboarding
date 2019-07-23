@@ -76,8 +76,10 @@ MATLAB Online
 
 A MathWorks account enables access to MATLAB from a web browser through `MATLAB Online <https://www.mathworks.com/products/matlab-online.html>`_.
 Files uploaded into MATLAB Online are stored in `MATLAB Drive <https://www.mathworks.com/products/matlab-drive.html>`_ so they can be 
-accessed upon future log-ins. Note that up to 5GB of storage is 
-available in MATLAB Drive.
+accessed upon future log-ins. 
+
+.. note::
+	5GB of storage is available in MATLAB Drive.
 
 This platform is convenient for quick access on workstations without MATLAB. 
 It is also recommended for sharing and teaching purposes, such as workshops, 
