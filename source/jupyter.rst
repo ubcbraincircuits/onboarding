@@ -2,6 +2,29 @@
 Jupyter
 #######
 
+.. toctree::	
+	:caption: Table of Contents
+	:maxdepth: 3
+	
+	jupyter
+
+****************
+Jupyter Notebook
+****************
+
+The `Jupyter Notebook <https://jupyter-notebook.readthedocs.io/en/stable/#>`_ is an open-source web application which
+provides an interactive environment that smoothly integrates live code, images, equations, data visualization, interactive
+widgets, and text. 
+
+.. note::
+	Jupyter is not exclusive to Python - it supports over 40 languages, including R, Java, and MATLAB. IPython is the default kernel
+	of Jupyter Notebook but other kernels can be installed to enable the use of other languages within Jupyter.
+	
+	Check out the list of available kernels `here <https://github.com/jupyter/jupyter/wiki/Jupyter-kernels>`__.
+
+.. todo::
+	ipywidgets, nbconvert, nbviewer, a note about latex
+
 ******
 Syzygy
 ******
