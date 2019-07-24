@@ -2,6 +2,14 @@
 Jupyter
 #######
 
+`Project Jupyter <https://jupyter.org/index.html>`_ is an open-source project intended to support
+interactive scientific computing across numerous languages. 
+
+*Documentation*: `<https://jupyter.readthedocs.io/en/latest/>`_
+
+.. tip::
+	Scared of commitment? To try Jupyter without installation, click `here <https://jupyter.org/try>`__.
+
 .. toctree::	
 	:caption: Table of Contents
 	:maxdepth: 3
