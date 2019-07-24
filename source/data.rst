@@ -4,6 +4,12 @@ Data Management
 
 With big data comes big responsibility.
 
+.. toctree::	
+	:caption: Table of Contents
+	:maxdepth: 3
+	
+	data
+
 *****************
 Data Repositories
 *****************
@@ -26,3 +32,7 @@ If your lab is interested in creating a dataverse, contact Jeffrey LeDue through
 
 FRDR
 ====
+
+***************
+Version Control
+***************
