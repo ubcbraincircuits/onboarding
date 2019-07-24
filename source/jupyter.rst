@@ -57,7 +57,7 @@ other formats, including HTML and PDF.
 	
 		$ jupyter nbconvert --to format notebook.ipynb
 		
-	Simply replace ``format`` wtih the desired format and ``notebook.ipynb`` with the notebook file.
+	Replace ``format`` wtih the desired format and ``notebook.ipynb`` with the notebook file.
 	
 .. tip::
 	Saving as different formats is also possible within Jupyter. To see the available formats:
