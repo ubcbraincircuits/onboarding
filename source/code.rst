@@ -1,6 +1,46 @@
-#########################################
-Beginner's Guide to Coding: Tips & Tricks
-#########################################
+##########################
+Beginner's Guide to Coding
+##########################
+
+.. toctree::	
+	:caption: Table of Contents
+	:maxdepth: 3
+	
+	code
+
+******************
+MATLAB <--> Python
+******************
+
+.. code-block:: matlab
+
+	if command == 'matlab'
+		command = 'python';
+	end
+
+.. code-block:: python
+
+	if command == 'python':
+		command = 'matlab'
+		
+Take a look at the code blocks above. One is in MATLAB and the other is in Python. Which one is which?
+
+Python and MATLAB have very similar syntax so knowing one while learning the other can get tricky. It's  
+easy to mix up the commands. 
+
+A couple of resources are listed below to help users of both languages find
+equivalent commands:
+
+* MATLAB commands in numerical Python from Mathesaurus by Vidar Bronken Gundersen
+
+	* `HTML <http://mathesaurus.sourceforge.net/matlab-numpy.html>`_
+	* `PDF <http://mathesaurus.sourceforge.net/matlab-python-xref.pdf>`_
+	
+* `NumPy for Matlab users <https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html>`_ from SciPy.org
+
+**************
+Good Practices
+**************
 
 Good practices:
 1. Format as you go. 
