@@ -44,7 +44,7 @@ nbviewer
 nbconvert
 ---------
 
-`nbconvert <https://nbconvert.readthedocs.io/en/latest/index.html#>`_ converts Jupyter notebooks (.ipynb files) to
+`nbconvert <https://nbconvert.readthedocs.io/en/latest/index.html#>`_ converts Jupyter Notebooks (.ipynb files) to
 other formats, including HTML and PDF.
 
 .. hint::
