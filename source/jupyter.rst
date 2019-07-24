@@ -31,7 +31,48 @@ widgets, and text.
 	Check out the list of available kernels `here <https://github.com/jupyter/jupyter/wiki/Jupyter-kernels>`__.
 
 .. todo::
-	ipywidgets, nbconvert, nbviewer, a note about latex
+	ipywidgets, a note about latex
+	
+Tools
+========
+
+nbviewer
+--------
+
+`nbviewer <https://nbviewer.jupyter.org/>`_ renders Jupyter Notebooks in a browser. 
+
+nbconvert
+---------
+
+`nbconvert <https://nbconvert.readthedocs.io/en/latest/index.html#>`_ converts Jupyter notebooks (.ipynb files) to
+other formats, including HTML and PDF.
+
+.. hint::
+	Installing Jupyter (``pip install jupyter``) also installs nbconvert. To use nbconvert from the 
+	command line, enter the following command in the directory in which the notebook is stored.
+	
+	.. highlight:: console
+	
+	::
+	
+		$ jupyter nbconvert --to format notebook.ipynb
+		
+	Simply replace ``format`` wtih the desired format and ``notebook.ipynb`` with the notebook file.
+	
+.. tip::
+	Saving as different formats is also possible within Jupyter. To see the available formats:
+	
+		* In Jupyter Notebook, 
+		
+		  	click on :guilabel:`File` then hover over :guilabel:`Download as`.
+			
+		* In Jupyter Lab, 
+		
+			click on :guilabel:`File` then hover over :guilabel:`Export Notebook As...`.
+			
+***********
+Jupyter Lab
+***********
 
 ******
 Syzygy
