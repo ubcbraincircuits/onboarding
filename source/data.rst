@@ -39,9 +39,9 @@ large-scale data preservation with data discovery across Canadian research data 
 
 Datasets in FRDR are searchable by anyone, however FRDR is currently in Limited Production and therefore only accepts
 data deposits from a select number of research groups. The cluster is pleased to be the first in Canada and in UBC to 
-deposit data into FRDR.
+deposit a dataset into FRDR.
 
-The `cluster's FRDR collection <https://www.frdr.ca/repo/handle/ubcbraincircuits>`_ .....
+The `cluster's FRDR collection <https://www.frdr.ca/repo/handle/ubcbraincircuits>`_ ....
 
 .. todo::
 	Add deposit instructions.
