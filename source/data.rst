@@ -18,7 +18,7 @@ Scholars Portal Dataverse
 =========================
 
 `Scholars Portal Dataverse <https://dataverse.org/>`_ is a research data repository that emphasizes discoverability and long-term preservation
-of data while ensuring academic credit. For more information, see the section on Scholars Portal Dataverse in the UBC Brain Circuits Data Management Plan (DMP) white paper.
+of data while ensuring academic credit. For more information, see the section on Scholars Portal Dataverse in the UBC Brain Circuits Data Management white paper.
 
 The Brain Circuits Cluster has its own `dataverse <https://dataverse.scholarsportal.info/dataverse/UBC_BrainCircuits>`_,
 within which certain labs have set up their own dataverses.
@@ -36,7 +36,7 @@ Federated Research Data Repository (FRDR)
 The `Federated Research Data Repository (FRDR) <https://www.frdr.ca/repo/?locale=en>`_ is a collaboration between Portage,
 Compute Canada (CC), and the Canadian Association of Research Libraries (CARL) which provides a system that combines
 curated large-scale data preservation with data discovery across Canadian research data repositories. Refer to the FRDR section
-in the UBC Brain Circuit's DMP white paper for more information.
+in the UBC Brain Circuit's Data Management white paper for more information.
 
 Datasets in FRDR are searchable by anyone, however FRDR is currently in Limited Production and therefore only accepts
 data deposits from a select number of research groups. The cluster is pleased to be the first in Canada and in UBC to 
