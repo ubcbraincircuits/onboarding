@@ -60,7 +60,7 @@ The `Python Package Index (PyPI) <https://pypi.org/>`_ is a repository of Python
 
 .. Important::
 	``pip`` is the Python package installer program. To install a package,
-	enter the command ``pip install <package_name>`` into Terminal or Command Prompt. 
+	enter the command ``pip install package_name`` into Terminal or Command Prompt. 
 	
 The packages listed here form the basis of most data analysis and processing. 
 
