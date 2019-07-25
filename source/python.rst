@@ -176,23 +176,32 @@ best for working with tabular data (csv, xlsx) or time series data.
 		>>> import pands as pd
 		>>> mice = pd.read_csv('mice.csv')
 		>>> mice
-		  mouse gender     cage
-		0  M802      M  C3M0009
-		1  M002      F  C3P0032
-		2  M194      F  C3M0009
+		  mouse sex     cage
+		0  M802   M  C3M0009
+		1  M002   F  C3P0032
+		2  M194   F  C3M0009
 		
-	Store the IDs of female mice in a different variable.
+	Store the IDs of female mice in a variable called ``female_ID``. 
 	
 	.. highlight
 	
 	::
 	
-		>>> female_ID = mice.mouse[mice.gender == 'F']
+		>>> female_ID = mice.mouse[mice.sex == 'F']
 		>>> female_ID
 		1    M002
 		2    M194
 		Name: mouse, dtype: object
+		>>> # OR...
+		>>> female_ID = mice.groupby(['sex']).get_group('F')['mouse']
+		>>> female_ID 
+		1    M002
+		2    M194
+		Name: mouse, dtype: object
 		
+	The first method directly indexes ``mice``. The second method groups the mice by sex first, from which it then gets the female group, and finally
+	extracts the mouse IDs by indexing with the ``mouse`` column.
+	
 6. Seaborn
 ----------
 
