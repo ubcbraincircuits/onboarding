@@ -23,7 +23,7 @@ Email: brain.circuits@ubc.ca
 
 `Website <https://braincircuits.centreforbrainhealth.ca/>`__
 
-Twitter: ` <>`__
+Twitter: `@BrainUBC <https://twitter.com/BrainUBC>`__
 
 The following links appear throughout the portfolio.
 
