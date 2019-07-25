@@ -10,6 +10,10 @@ With big data comes big responsibility.
 	
 	data
 
+***************************
+Data Management White Paper
+***************************
+
 *****************
 Data Repositories
 *****************
