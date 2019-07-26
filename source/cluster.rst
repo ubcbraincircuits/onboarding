@@ -19,21 +19,21 @@ Cluster Resources
 Social Media and Accounts
 **************************
 
-Email: brain.circuits@ubc.ca
+- Email: brain.circuits@ubc.ca
 
-`Website <https://braincircuits.centreforbrainhealth.ca/>`__
+- `Website <https://braincircuits.centreforbrainhealth.ca/>`__
 
-Twitter: `@BrainUBC <https://twitter.com/BrainUBC>`__
+- Twitter: `@BrainUBC <https://twitter.com/BrainUBC>`__
 
 The following links appear throughout the portfolio.
 
-`Dataverse <https://dataverse.scholarsportal.info/dataverse/UBC_BrainCircuits>`__
+- `Dataverse <https://dataverse.scholarsportal.info/dataverse/UBC_BrainCircuits>`__
 
-`Federal Research Data Repository (FRDR) <https://www.frdr.ca/repo/handle/ubcbraincircuits>`__
+- `Federal Research Data Repository (FRDR) <https://www.frdr.ca/repo/handle/ubcbraincircuits>`__
 
-`GitHub <https://github.com/UBCBrainCircuits>`__
+- `GitHub <https://github.com/UBCBrainCircuits>`__
 
-`OSF <>`__
+- `OSF <>`__
 
 ****
 NINC
