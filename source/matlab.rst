@@ -2,11 +2,8 @@
 MATLAB
 ######
 
-.. toctree::	
-	:caption: Table of Contents
-	:maxdepth: 3
-	
-	matlab
+.. contents:: Table of Contents
+	:depth: 3
 
 ************
 Installation
