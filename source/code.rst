@@ -2,11 +2,8 @@
 Beginner's Guide to Coding
 ##########################
 
-.. toctree::	
-	:caption: Table of Contents
-	:maxdepth: 3
-	
-	code
+.. contents:: Table of Contents
+	:depth: 3
 	
 ******************
 MATLAB <--> Python
