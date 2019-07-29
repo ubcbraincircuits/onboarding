@@ -2,11 +2,8 @@
 Image Analysis
 ############## 
 
-.. toctree::	
-	:caption: Table of Contents
-	:maxdepth: 3
-	
-	image
+.. contents:: Table of Contents
+	:depth: 3
 	
 ******
 ImageJ
