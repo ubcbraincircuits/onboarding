@@ -5,11 +5,8 @@ Python
 Python is a high-level, interpreted programming language that is widely used for 
 scientific analysis and computation.  
 
-.. toctree::	
-	:caption: Table of Contents
-	:maxdepth: 3
-	
-	python
+.. contents:: Table of Contents
+	:depth: 3
 
 ************
 Installation
@@ -150,7 +147,7 @@ submodules for integration, interpolation, signal processing, and statistics, am
 
 .. hint::
 	
-	.. highlight::
+	.. highlight:: python
 	
 	::
 	
