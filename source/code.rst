@@ -79,6 +79,15 @@ If you're really stuck and need help, at least try to understand what each line 
 Write test cases: Catch me if you can!
 ======================================
 
+In programming, it is best to be proactive - know when and how your code will fail. Run test cases through your functions to 
+ensure that they give the expected result in every scenario. 
+
+This is especially important if the code you are producing will be used by others so you can catch the errors and prevent your
+program from crashing on users.
+
+.. attention::
+	Don't forget to address the edge cases! 
+
 Back it up
 ==========
 
