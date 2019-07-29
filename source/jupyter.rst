@@ -30,9 +30,6 @@ widgets, and text.
 	
 	Check out the list of available kernels `here <https://github.com/jupyter/jupyter/wiki/Jupyter-kernels>`__.
 
-.. todo::
-	ipywidgets, a note about latex
-	
 LaTeX
 =====
 
@@ -71,6 +68,28 @@ Jupyter Notebooks can include inline and displayed mathematical equations writte
 		:alt: Nernst equation
 		:align: center
 		
+ipywidgets
+==========
+
+`ipywidgets <https://ipywidgets.readthedocs.io/en/stable/user_install.html#with-pip>`_ are interactive HTML
+widgets that can be used to build GUIs within Jupyter Notebooks. Available widgets include buttons, sliders,
+textboxes, and checkboxes.
+
+.. hint::
+
+	.. code-block:: console
+	
+		$ pip install ipywidgets
+		$ jupyter nbextension enable --py widgetsnbextension
+		
+	To use:
+	
+	.. highlight:: python
+	
+	::
+		
+		import ipywidgets as widgets
+			
 Tools
 ========
 
