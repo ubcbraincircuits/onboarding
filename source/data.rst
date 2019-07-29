@@ -4,12 +4,9 @@ Data Management
 
 With big data comes big responsibility.
 
-.. toctree::	
-	:caption: Table of Contents
-	:maxdepth: 3
+.. contents:: Table of Contents
+	:depth: 3
 	
-	data
-
 ***************************
 Data Management White Paper
 ***************************
