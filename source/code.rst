@@ -7,7 +7,7 @@ Beginner's Guide to Coding
 	:maxdepth: 3
 	
 	code
-
+	
 ******************
 MATLAB <--> Python
 ******************
@@ -48,11 +48,39 @@ Additionally, knowing common mistakes and some basic tricks can save a lot of ti
 Format as you go
 ================
 
+Sometimes when you're in the zone, the last thing you're worried about is your coding style. As a result, your code comes out looking like
+a wild beast which is a nightmare to tame when it spits out errors.
+
+Unformatted code is harder to debug because it's harder to read. It's therefore best if you format as you write. 
+
+.. tip::
+	In Python, code is good if it's *Pythonic* - see the section on :ref:`pycodestyle` for the specifics of Python style. Advanced coders can 
+	take advantage of `Black <https://black.readthedocs.io/en/stable/installation_and_usage.html#installation>`_, a Python formatter.
+	
+	MATLAB does not have an official style guide. However, there is a popular document called `MATLAB Style Guideline 2.0 <https://www.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0>`_
+	written by Richard Johnson for those interested in polishing up their code. 
+
 Comment wisely
 ==============
 
-Write test cases
-================
+Comments are essential because they describe the purpose of your code. It's important to write code that future you and other people will undestand.
+For example, functions should always be accompanied by a description.
+
+It's good to comment frequently but do so with some discretion - try not to comment the obvious. 
+
+.. hint::
+	Comments begin with a ``#`` in Python and a ``%`` in MATLAB. 
+
+Don't just copy from online sources
+===================================
+
+It's easy to stitch together a script from code snippets you find online but it's not a productive learning experience. 
+A valuable part of learning how to code is problem-solving, so it pays off to figure it out on your own first. 
+
+If you're really stuck and need help, at least try to understand what each line of code does before using it. 
+
+Write test cases: Catch me if you can!
+======================================
 
 Back it up
 ==========
@@ -85,14 +113,6 @@ For all these cases, reading the documentation carefully will likely resolve the
 Learn to read and write error messages
 ======================================
 
-Don't just copy from online sources
-===================================
-
-It's easy to stitch together a script from code snippets you find online but it's not a productive learning experience. 
-A valuable part of learning how to code is problem-solving, so it pays off to figure it out on your own first. 
-
-If you're really stuck and need help, at least try to understand what each line of code does before using it. 
-
 Diagnose with print statements
 ==============================
 
@@ -115,6 +135,11 @@ One of the simplest ways to find out where your code is going wrong is to insert
 Think first, then Google
 ========================
 
+It's tempting to Google an error straightaway but this prevents you from building an intuition for debugging. 
+Spend some time thinking about the logic of your code first; often times, there is a disparity between what you want your computer to do and what it is actually doing. 
+
+Doing this will familiarize you with solutions to errors that may pop up again in the future and it may even help you foresee the same errors before you hit :guilabel:`Run`.
+     
 Use a debugger
 ==============
 
