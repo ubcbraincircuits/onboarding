@@ -10,11 +10,8 @@ interactive scientific computing across numerous languages.
 .. tip::
 	Scared of commitment? To try Jupyter without installation, click `here <https://jupyter.org/try>`__.
 
-.. toctree::	
-	:caption: Table of Contents
-	:maxdepth: 3
-	
-	jupyter
+.. contents:: Table of Contents
+	:depth: 3
 
 ****************
 Jupyter Notebook
