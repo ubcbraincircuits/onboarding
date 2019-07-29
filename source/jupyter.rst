@@ -112,6 +112,10 @@ other formats, including HTML and PDF.
 Jupyter Lab
 ***********
 
+`Jupyter Lab <https://jupyterlab.readthedocs.io/en/stable/index.html>`_ is the web-based user interface intended
+to replace Jupyter Notebook. It has all the classic features of its predecessor plus some cool new ones, most notably it offers
+a flexible and unified workspace that can include a code console, terminal, text editor, and Notebook.
+
 ******
 Syzygy
 ******
