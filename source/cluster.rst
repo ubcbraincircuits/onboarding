@@ -9,11 +9,8 @@ Cluster Resources
    :alt: transparent brain circuits logo
    :align: center
 
-.. toctree::	
-	:caption: Table of Contents
-	:maxdepth: 3
-	
-	cluster	
+.. contents:: Table of Contents
+	:depth: 3
 	
 **************************
 Social Media and Accounts
