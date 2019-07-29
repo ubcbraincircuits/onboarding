@@ -51,7 +51,6 @@ Jupyter Notebooks can include inline and displayed mathematical equations writte
 		.. code-block:: python
 
 			The Nernst Equation is as follows
-
 			$$E_x = \frac{RT}{zF}ln{\frac{[X]_o}{[X]_i}}$$
 
 			where $R$ is the gas constant, $T$ the temperature, $z$ the valence of the ion, $F$ the Faraday 
@@ -59,7 +58,7 @@ Jupyter Notebooks can include inline and displayed mathematical equations writte
 		
 	where ``$$`` and ``$`` indicate the start and end of a displayed and inline equation respectively. 
 	
-	This produces 
+	This produces
 		
 	.. image:: /Images/nernst.png
 		:width: 686px
