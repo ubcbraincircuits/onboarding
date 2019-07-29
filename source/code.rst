@@ -65,12 +65,22 @@ Debugging
 	-- `@bramcohen <https://twitter.com/bramcohen/status/51714087842877440>`_
 	
 There is a good reason why this tweet has thousands of retweets and likes - because 
-it's sometimes true. Here are some tips when expectation ``!=`` reality while coding. 
+it's sometimes true. Here are some tips when expectation ``!=`` reality when coding. 
 
 Consult the documentation
 =========================
 
-Debugging can be as easy as checking the documentation. 
+Debugging can be as easy as checking the documentation. When the output of your code doesn't make
+sense, it might be because:
+
+- a command you're using does not do what you think it does 
+- you're not providing the correct input argument(s) to a command
+- you forgot to specify a value for a default argument of a command 
+
+For all these cases, reading the documentation carefully will likely resolve the issue. 
+
+.. attention::
+	Before writing your own function, check if a command already exists for the result you require!
 
 Learn to read and write error messages
 ======================================
@@ -78,9 +88,30 @@ Learn to read and write error messages
 Don't just copy from online sources
 ===================================
 
+It's easy to stitch together a script from code snippets you find online but it's not a productive learning experience. 
+A valuable part of learning how to code is problem-solving, so it pays off to figure it out on your own first. 
+
+If you're really stuck and need help, at least try to understand what each line of code does before using it. 
+
 Diagnose with print statements
 ==============================
 
+One of the simplest ways to find out where your code is going wrong is to insert print statements between lines.
+
+.. admonition:: Example
+	
+	.. highlight:: python
+	
+	::
+		
+		>>> for item in some_range:
+		...:	# insert step 1 here
+		...:	print("Step 1 complete!")
+		...:	# insert step 2 here 
+		...: 	print("Step 2 complete!")
+	
+	When you run the for loop, you'll know exactly where the bug occurs by which print statement fails to appear. 
+		 
 Think first, then Google
 ========================
 
