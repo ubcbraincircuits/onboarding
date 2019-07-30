@@ -30,7 +30,7 @@ The following links appear throughout the portfolio.
 
 - `GitHub <https://github.com/UBCBrainCircuits>`__
 
-- `OSF <>`__
+- `OSF <https://osf.io/b89p7/>`__
 
 ****
 NINC
