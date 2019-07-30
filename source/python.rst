@@ -28,6 +28,13 @@ or Command Prompt (Windows) and enter the command below.
 .. code-block:: console
 
 		$ python --version
+
+*********
+Tutorials
+*********
+
+.. todo::
+	https://github.com/dasaderi/python_neurobootcamp
 		
 *************
 Documentation
@@ -264,13 +271,6 @@ pycodestyle is the Python style guide checker. It was formerly known as pep8.
 		$ 
 		
 	All is well!
-
-*********
-Tutorials
-*********
-
-.. todo::
-	https://github.com/dasaderi/python_neurobootcamp
 
 ******************
 Anaconda Navigator
