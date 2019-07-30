@@ -149,6 +149,12 @@ Doing this will familiarize you with solutions to errors that may pop up again i
 Use a debugger
 ==============
 
+A debugger should only be your last line of defense. For beginners, it is better to establish your ability to diagnose problems before
+relying on a debugger. 
+
+.. todo::
+	pdb, matlab debugger?
+
 1. Know how to read error messages.
 2. Don't just copy from online sources. 
 3. Consult the documentation.
