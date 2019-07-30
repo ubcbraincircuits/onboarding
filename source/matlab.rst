@@ -56,8 +56,8 @@ feedback and hints.
 
 A MATLAB Onramp Certificate is generated with a percentage indicating progress in the course. 
 
-NINC
-====
+NINC MATLAB Tutorials
+=====================
 
 The `NeuroImaging and NeuroComputation Centre (NINC) <https://ninc.centreforbrainhealth.ca/>`_
 offers free MATLAB tutorials three times a year in Koerner F103 on Tuesdays from 1-2 pm. 
@@ -81,6 +81,3 @@ accessed upon future log-ins.
 This platform is convenient for quick access on workstations without MATLAB. 
 It is also recommended for sharing and teaching purposes, such as workshops, 
 where it would be ideal for all users to have the same and/or latest version of MATLAB.
-
-
-
