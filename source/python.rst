@@ -2,7 +2,7 @@
 Python
 ######
 
-Python is a high-level, interpreted programming language that is widely used for 
+`Python <https://www.python.org/>`_ is a high-level, interpreted programming language that is widely used for 
 scientific analysis and computation.  
 
 .. contents:: Table of Contents
