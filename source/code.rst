@@ -51,7 +51,7 @@ a wild beast which is a nightmare to tame when it spits out errors.
 Unformatted code is harder to debug because it's harder to read. It's therefore best if you format as you write. 
 
 .. tip::
-	In Python, code is good if it's *Pythonic* - see the section on `pycodestyle <python.html#pycodestyle>`_ for the specifics of Python style. Advanced coders can 
+	In Python, *Pythonic* code is good code - see the section on `pycodestyle <python.html#pycodestyle>`_ for the specifics of Python style. Advanced coders can 
 	take advantage of `Black <https://black.readthedocs.io/en/stable/installation_and_usage.html#installation>`_, a Python formatter.
 	
 	MATLAB does not have an official style guide. However, there is a popular document called `MATLAB Style Guideline 2.0 <https://www.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0>`_
@@ -151,9 +151,11 @@ Use a debugger
 
 A debugger should only be your last line of defense. For beginners, it is better to establish your ability to diagnose problems before
 relying on a debugger. 
+	
+The Python Debugger (pdb)
+-------------------------
 
-.. todo::
-	pdb, matlab debugger?
+`pdb <>`_ is a module that interactively debuggs Python programs.
 
 1. Know how to read error messages.
 2. Don't just copy from online sources. 
