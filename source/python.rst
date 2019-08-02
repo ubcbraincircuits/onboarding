@@ -33,6 +33,17 @@ or Command Prompt (Windows) and enter the command below.
 Tutorials
 *********
 
+NINC Python Tutorials
+=====================
+
+The `NeuroImaging and NeuroComputation Centre (NINC) <https://ninc.centreforbrainhealth.ca/>`__
+offers free drop-in Python tutorials every Friday from 3-4 pm in Koerner F103.
+
+You can ask for help with your own code or get some guidance on how to get started.
+
+Oregon Health & Science University's Python Neurobootcamp
+=========================================================
+
 .. todo::
 	https://github.com/dasaderi/python_neurobootcamp
 		
