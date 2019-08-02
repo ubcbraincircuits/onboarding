@@ -2,6 +2,9 @@
 MATLAB
 ######
 
+`MATLAB <https://www.mathworks.com/products/matlab.html>`_ is a computing and visualization environment and a high-level programming
+language.
+
 .. contents:: Table of Contents
 	:depth: 3
 
