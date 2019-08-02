@@ -59,7 +59,7 @@ A MATLAB Onramp Certificate is generated with a percentage indicating progress i
 NINC MATLAB Tutorials
 =====================
 
-The `NeuroImaging and NeuroComputation Centre (NINC) <https://ninc.centreforbrainhealth.ca/>`_
+The `NeuroImaging and NeuroComputation Centre (NINC) <https://ninc.centreforbrainhealth.ca/>`__
 offers free MATLAB tutorials three times a year in Koerner F103 on Tuesdays from 1-2 pm. 
 
 The tutorial materials are available on the `NINC GitHub <https://github.com/NINC-UBC/MATLABTutorials>`_. To download, 
