@@ -119,6 +119,22 @@ For all these cases, reading the documentation carefully will likely resolve the
 Learn to read and write error messages
 ======================================
 
+As with everything else in life, coding requires you to learn from your mistakes but before you can learn from them, 
+you must first know exactly what those mistakes are and what caused them.
+
+Errors can be more puzzling than the code that caused them. However, often times, they are actually
+helpful and descriptive - that is, if you know how to read them. It takes practice but with time and experience,
+you'll have an inkling about what's wrong with your code even with the vaguest of error messages.
+
+Before you start coding, take some time to read up on the documentation about error handling. 
+
+ - `Errors and Exceptions <https://docs.python.org/3.7/tutorial/errors.html>`_ in Python
+ - `Error Handling <https://www.mathworks.com/help/matlab/error-handling.html>`_ in MATLAB
+ 
+Knowing how to read error messages will also help you once you start writing your own programs. To make sure your programs
+are user-friendly, make sure you anticipate potential mistakes your users may make so you can write clear error messages to
+help them (remember :ref:`this<Write test cases: Catch me if you can!>` good practice?).
+
 Diagnose with print statements
 ==============================
 
@@ -155,7 +171,7 @@ relying on a debugger.
 The Python Debugger (pdb)
 -------------------------
 
-`pdb <>`_ is a module that interactively debuggs Python programs.
+`pdb <https://docs.python.org/3/library/pdb.html>`_ is a module that interactively debuggs Python programs.
 
 1. Know how to read error messages.
 2. Don't just copy from online sources. 
