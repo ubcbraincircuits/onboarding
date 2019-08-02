@@ -135,6 +135,9 @@ Knowing how to read error messages will also help you once you start writing you
 are user-friendly, make sure you anticipate potential mistakes your users may make so you can write clear error messages to
 help them (remember :ref:`this<Write test cases: Catch me if you can!>` good practice?).
 
+.. todo::
+	logging module in Python
+
 Diagnose with print statements
 ==============================
 
