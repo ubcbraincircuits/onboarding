@@ -136,7 +136,7 @@ are user-friendly, make sure you anticipate potential mistakes your users may ma
 help them (remember :ref:`this<Write test cases: Catch me if you can!>` good practice?).
 
 .. todo::
-	logging module in Python
+	logging module in Python, pytest, unittest, nose
 
 Diagnose with print statements
 ==============================
