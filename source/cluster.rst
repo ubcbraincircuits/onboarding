@@ -2,13 +2,6 @@
 Cluster Resources 
 #################
 
-.. image:: /Images/braincircuits_logo_transparent.png
-   :width: 400px
-   :height: 104px
-   :scale: 100 %
-   :alt: transparent brain circuits logo
-   :align: center
-
 .. contents:: Table of Contents
 	:depth: 3
 	
