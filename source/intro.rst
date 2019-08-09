@@ -2,6 +2,13 @@
 Introduction
 ############
 
+.. image:: /Images/braincircuits_logo_transparent.png
+   :width: 400px
+   :height: 104px
+   :scale: 100 %
+   :alt: transparent brain circuits logo
+   :align: center
+   
 Welcome to the Dynamic Brain Circuits in Health and Disease research cluster! The Brain Circuits cluster is composed of
 30 researchers focused on the study of brain connections and their dynamic changes during development, learning, and disease.
 
