@@ -44,8 +44,18 @@ You can ask for help with your own code or get some guidance on how to get start
 Oregon Health & Science University's Python Neurobootcamp
 =========================================================
 
-.. todo::
-	https://github.com/dasaderi/python_neurobootcamp
+The Neuroscience Graduate Program at Oregon Health and Science University (OHSU) hosted a 5-day `Python Neurobootcamp <https://github.com/dasaderi/python_neurobootcamp>`_,
+the materials from which are available on GitHub. 
+
+The course is structured around five Jupyter Notebooks:
+
+	- Day 1: Introduction to the Python Language: Data types and handling errors
+	- Day 2: Introduction to Pandas Data Frames: Intro to imaging data analysis
+	- Day 3: More on Pandas and Numpy: Electrophysiology data analysis
+	- Day 4: Diving Deeper into Pandas with Imaging Data
+	- Day 5: In Class Evaluation Exercise 
+	
+For more information, check out the `syllabus <https://github.com/dasaderi/python_neurobootcamp/blob/master/NEUS640_syllabus_2018.pdf>`_.
 		
 *************
 Documentation
