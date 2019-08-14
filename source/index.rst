@@ -19,7 +19,6 @@ Welcome to UBC Dynamic Brain Circuits Cluster Onboarding Portfolio's documentati
    Statistics <statistics>
    Data Management <data>
    Image Analysis <image>
-   Animal Care <animal>
    
 Indices and tables
 ==================
