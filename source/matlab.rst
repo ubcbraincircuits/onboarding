@@ -13,37 +13,14 @@ Installation
 ************
 
 UBC has a campus-wide MATLAB license hence it is free for students, faculty, staff,
-and researchers.
+and researchers. 
 
-Students
-========
+To install MATLAB, `create a MathWorks account <https://www.mathworks.com/mwaccount/register>`_ with your UBC email,
+which automatically links your account with UBC's license. Once you have verified your email address, log into MathWorks.
+Your account page should display the license under "My Software". Click the down arrow located in the same row as 
+the license to download MATLAB.
 
-.. todo::
-	Ask Jeff if grad students are students or faculty/staff/researchers?
-
-Faculty, Staff, and Researchers
-===============================
-
-The MATLAB installation media has to be requested through your 
-faculty or department IT. 
-
-Faculty of Medicine
---------------------
-`MedIT <https://mednet.med.ubc.ca/AboutUs/ContactUs/AdministrativeServices/Pages/MedIT.aspx>`_
- - `Department of Psychiatry IT <https://psychiatry.ubc.ca/administration/information-technology/it-administration/>`_
-
-Faculty of Applied Science
---------------------------
-Request MATLAB by submitting a ticket: `IT Help Form <https://web.it.ubc.ca/forms/apsc/>`_
-
-Faculty of Science
-------------------
-`Department of Physics and Astronomy - MATLAB <https://www.phas.ubc.ca/matlab>`_: "MATLAB latest version installation media is 
-available for check out from PHAS IT at Hennings 203A." 
- 
-Faculty of Arts
----------------
-`Department of Psychology IT <https://psych.ubc.ca/internal/it-services/software-recommendations-and-purchasing/>`_ 
+For more information on MATLAB installation and troubleshooting, check out `UBC IT's MATLAB page <https://it.ubc.ca/services/desktop-print-services/software-licensing/matlab>`_. 
 
 *********
 Tutorials
