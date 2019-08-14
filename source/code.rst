@@ -174,7 +174,7 @@ relying on a debugger.
 The Python Debugger (pdb)
 -------------------------
 
-`pdb <https://docs.python.org/3/library/pdb.html>`_ is a module that interactively debuggs Python programs.
+`pdb <https://docs.python.org/3/library/pdb.html>`_ is a module that interactively debugs Python programs.
 
 1. Know how to read error messages.
 2. Don't just copy from online sources. 
