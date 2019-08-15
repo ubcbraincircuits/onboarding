@@ -52,3 +52,21 @@ a depositor. Contact Jeffrey LeDue (jledue@mail.ubc.ca) to request access.
 ***************
 Version Control
 ***************
+
+Simply put, version control is a way of tracking changes to a file. 
+It can seem like a lot of work on top of the big helping of work you likely already have 
+so why add it to your plate?
+
+Version control is the solution to many problems which most of us are unfortunately familiar with:
+
+	- **File recovery**: computer crash, accidental deletion, corrupted file - in case of emergency, break the version control glass. 
+	
+	- **Versioning**: Make experimental changes without relying on the undo button to save you when things goes awry. 
+	
+	- **Backup**: Lost your copy of the file? Working from another computer? No problem. 
+	
+	- **Attribution**: Credit is given where credit is due. A record of user contributions simplifies collaboration.
+	
+	- **Changelog**: Have you ever looked at previous work and wondered, *Why did I do that?* ? Version control keeps a record of the changes you've made and why you've made them so your past self doesn't confuse your future self. 
+	
+	
