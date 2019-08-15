@@ -146,3 +146,18 @@ It is a quick overview of the basics of statistics by Ethan Meyers.
 :58\:\29-1\:\03\:\44: `Multiple hypothesis tests <https://youtu.be/XbHeCL_8UhA?t=3509>`_
 :1\:\03\:\45-end: `Data Science <https://youtu.be/XbHeCL_8UhA?t=3825>`_
 
+************************************************
+Statistics for Brain and Cognitive Science (MIT)
+************************************************
+
+Statistics for Brain and Cognitive Science is an MIT course that covers three
+main topics: probability theory, statistical theory, and the linear model. It includes 
+topics such as estimation, Bayesian methods, bootstrap, hypothesis testing, and confidence intervals.
+
+The course materials from fall 2016, including the syllabus, lecture notes, and assignments, are available
+for download on `MIT OpenCourseWare <https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-07-statistics-for-brain-and-cognitive-science-fall-2016/index.htm>`_.
+
+
+
+
+
