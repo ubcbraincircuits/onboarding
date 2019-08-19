@@ -67,6 +67,9 @@ Version control is the solution to many problems which most of us are unfortunat
 	
 	- **Attribution**: Credit is given where credit is due. A record of user contributions simplifies collaboration.
 	
-	- **Changelog**: Have you ever looked at previous work and wondered, *Why did I do that?* ? Version control keeps a record of the changes you've made and why you've made them so your past self doesn't confuse your future self. 
+	- **Changelog**: Have you ever looked at previous work and wondered, *Why did I do that?*? Version control keeps a record of the changes you've made and why you've made them so your past self doesn't confuse your future self. 
 	
+.. note::
+	A **remote** repository is hosted on a server (online) while a **local** repository exists on a computer (offline). When referring to the same
+	repository, the local *repo* is usually a clone of the remote.
 	
