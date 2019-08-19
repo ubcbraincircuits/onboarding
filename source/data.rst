@@ -57,7 +57,7 @@ Simply put, version control is a way of tracking changes to a file.
 It can seem like a lot of work on top of the big helping of work you likely already have 
 so why add it to your plate?
 
-Version control is the solution to many problems which most of us are unfortunately familiar with:
+Version control is the solution to many problems which are unfortunately familiar:
 
 	- **File recovery**: computer crash, accidental deletion, corrupted file - in case of emergency, break the version control glass. 
 	
@@ -71,5 +71,20 @@ Version control is the solution to many problems which most of us are unfortunat
 	
 .. note::
 	A **remote** repository is hosted on a server (online) while a **local** repository exists on a computer (offline). When referring to the same
-	repository, the local *repo* is usually a clone of the remote.
+	repository, the local *repo* is usually a clone of the remote which typically lives on GitHub.
 	
+Git
+===
+
+`Git <https://git-scm.com/>`_ is a popular open-source distributed version control system. 
+
+`GitHub <https://github.com/>`_ hosts Git repositories. Check out the cluster's `GitHub Team repository <https://github.com/ubcbraincircuits>`_.
+Each lab can be added as a Team. If interested, please contact Jeffrey LeDue (jledue@mail.ubc.ca).
+
+
+.. tip::
+	Learning Git can be a tough task. Here are some resources to help you get started:
+	
+		- `Git Handbook <https://guides.github.com/introduction/git-handbook/>`_, a 10-minute read on the basics of Git and its integration with GitHub
+		
+		- `An introduction to Git: what it is, and how to use it <https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/>`_, a tutorial on Git commands by freeCodeCamp 
