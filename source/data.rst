@@ -48,6 +48,9 @@ a depositor. Contact Jeffrey LeDue (jledue@mail.ubc.ca) to request access.
 
 .. attention::
 	FRDR automaticallly archives data submissions less than 4 TB. 
+
+
+.. _version-control:
 	
 ***************
 Version Control
