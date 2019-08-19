@@ -91,6 +91,11 @@ program from crashing on users.
 Back it up
 ==========
 
+Coding takes a lot of work so you don't want to lose your progress when your program crashes. This lesson is painful to learn by mistake so 
+back up your code regularly or better yet, version it! 
+
+See the section on :ref:`version-control` in the Data Management Page. 
+
 *********
 Debugging
 *********
