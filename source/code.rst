@@ -51,7 +51,7 @@ a wild beast which is a nightmare to tame when it spits out errors.
 Unformatted code is harder to debug because it's harder to read. It's therefore best if you format as you write. 
 
 .. tip::
-	In Python, *Pythonic* code is good code - see the section on `pycodestyle <python.html#pycodestyle>`_ for the specifics of Python style. Advanced coders can 
+	In Python, *Pythonic* code is good code - see the section on :ref:`pycodestyle <pycodestyle>` for the specifics of Python style. Advanced coders can 
 	take advantage of `Black <https://black.readthedocs.io/en/stable/installation_and_usage.html#installation>`_, a Python formatter.
 	
 	MATLAB does not have an official style guide. However, there is a popular document called `MATLAB Style Guideline 2.0 <https://www.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0>`_
