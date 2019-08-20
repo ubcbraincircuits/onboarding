@@ -190,6 +190,10 @@ The Python Debugger (pdb)
 `pdb <https://docs.python.org/3/library/pdb.html>`_ is a module from the Python Standard Library that interactively debugs Python programs.
 This module enables coders to step through their programs line-by-line as it executes.
 
+	- `How To Use the Python Debugger <https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger>`_, a tutorial
+	  that highlights the features of pdb written by Lisa Tagliaferri for DigitalOcean
+	- `pdb Tutorial <https://github.com/spiside/pdb-tutorial>`_, a tutorial that uses an example of a Python script for a dice game to illustrate the use of pdb.
+
 .. note:: 
 	A **breakpoint** is used to pause a running program at a specific location and *break* into the debugger, allowing 
 	you to step through the code following the breakpoint. 
@@ -203,6 +207,9 @@ This module enables coders to step through their programs line-by-line as it exe
 		# some code in between
 		pdb.set_trace()
 		# debugger begins at this line
+		
+.. tip::
+	For versions 3.7 and onwards, a built-in ``breakpoint()`` function can replace ``import pdb; pdb.set_trace()``.
 		
 		
 
