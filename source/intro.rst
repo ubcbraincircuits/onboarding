@@ -19,6 +19,9 @@ and is therefore recommended as a reference for unfamiliar things that new membe
 Most of what is presented here is central to neuroscience research and the portfolio encourages new members to take advantage of the resources
 available online that are catered directly to the needs of neuroscientists.
 
+.. note::
+	The cluster will be releasing a white paper on data storage and sharing this year. Stay tuned! 
+
 
 Labs and Investigators
 ======================
