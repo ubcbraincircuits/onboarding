@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to UBC Dynamic Brain Circuits Cluster Onboarding Portfolio's documentation!
-===================================================================================
+Welcome to the UBC Brain Circuits Cluster Onboarding Portfolio!
+===============================================================
 
 .. toctree::
    :maxdepth: 2
