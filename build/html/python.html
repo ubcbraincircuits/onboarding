@@ -1,0 +1,509 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Python &mdash; UBC Dynamic Brain Circuits Cluster Onboarding Portfolio 2019 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'2019',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Jupyter" href="jupyter.html" />
+    <link rel="prev" title="MATLAB" href="matlab.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> UBC Dynamic Brain Circuits Cluster Onboarding Portfolio
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cluster.html">Cluster Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code.html">Beginner's Guide to Coding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Python</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tutorials">Tutorials</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ninc-python-tutorials">NINC Python Tutorials</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#oregon-health-science-university-s-python-neurobootcamp">Oregon Health &amp; Science University’s Python Neurobootcamp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#python-standard-library">Python Standard Library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pep-8">PEP 8</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#python-package-index-pypi">Python Package Index (PyPI)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ipython">1. IPython</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#numpy">2. NumPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#matplotlib">3. Matplotlib</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#scipy">4. SciPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pandas">5. pandas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#seaborn">6. Seaborn</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pycodestyle">7. pycodestyle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#anaconda-navigator">Anaconda Navigator</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="jupyter.html">Jupyter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistics.html">Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">Data Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image.html">Image Analysis</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">UBC Dynamic Brain Circuits Cluster Onboarding Portfolio</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Python</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/python.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="python">
+<h1><a class="toc-backref" href="#id12">Python</a><a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://www.python.org/">Python</a> is a high-level, interpreted programming language that is widely used for
+scientific analysis and computation.</p>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#python" id="id12">Python</a><ul>
+<li><a class="reference internal" href="#installation" id="id13">Installation</a></li>
+<li><a class="reference internal" href="#tutorials" id="id14">Tutorials</a><ul>
+<li><a class="reference internal" href="#ninc-python-tutorials" id="id15">NINC Python Tutorials</a></li>
+<li><a class="reference internal" href="#oregon-health-science-university-s-python-neurobootcamp" id="id16">Oregon Health &amp; Science University’s Python Neurobootcamp</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#documentation" id="id17">Documentation</a><ul>
+<li><a class="reference internal" href="#python-standard-library" id="id18">Python Standard Library</a></li>
+<li><a class="reference internal" href="#pep-8" id="id19">PEP 8</a></li>
+<li><a class="reference internal" href="#python-package-index-pypi" id="id20">Python Package Index (PyPI)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#anaconda-navigator" id="id21">Anaconda Navigator</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="installation">
+<h2><a class="toc-backref" href="#id13">Installation</a><a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>Mac OS X and some Linux distributions have Python installed by default.</p>
+<p>Windows users can download the latest version of Python from the <a class="reference external" href="https://www.python.org/downloads/">website</a>.</p>
+<p>Once installation is done, click the Python application file again (it should be in the
+Downloads folder as python-&lt;version_number&gt;.exe). A window will pop up. Click on <span class="guilabel">Modify</span>
+then select <span class="guilabel">Next</span>, which leads to <span class="guilabel">Advanced Options</span>. Tick the box labeled <span class="guilabel">Add Python
+to environment variables</span> then click <span class="guilabel">Install</span>. Python will now be avaliable in both Command
+Prompt and Windows PowerShell.</p>
+<p>To verify installation or to check the version of Python on your system, open a Terminal window (Mac OS X)
+or Command Prompt (Windows) and enter the command below.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> python --version
+</pre></div>
+</div>
+</div>
+<div class="section" id="tutorials">
+<h2><a class="toc-backref" href="#id14">Tutorials</a><a class="headerlink" href="#tutorials" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="ninc-python-tutorials">
+<h3><a class="toc-backref" href="#id15">NINC Python Tutorials</a><a class="headerlink" href="#ninc-python-tutorials" title="Permalink to this headline">¶</a></h3>
+<p>The <a class="reference external" href="https://ninc.centreforbrainhealth.ca/">NeuroImaging and NeuroComputation Centre (NINC)</a>
+offers free drop-in Python tutorials every Friday from 3-4 pm in Koerner F103.</p>
+<p>You can ask for help with your own code or get some guidance on how to get started.</p>
+</div>
+<div class="section" id="oregon-health-science-university-s-python-neurobootcamp">
+<h3><a class="toc-backref" href="#id16">Oregon Health &amp; Science University’s Python Neurobootcamp</a><a class="headerlink" href="#oregon-health-science-university-s-python-neurobootcamp" title="Permalink to this headline">¶</a></h3>
+<p>The Neuroscience Graduate Program at Oregon Health and Science University (OHSU) hosted a 5-day <a class="reference external" href="https://github.com/dasaderi/python_neurobootcamp">Python Neurobootcamp</a>,
+the materials from which are available on GitHub.</p>
+<p>The course is structured around five Jupyter Notebooks:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Day 1: Introduction to the Python Language: Data types and handling errors</li>
+<li>Day 2: Introduction to Pandas Data Frames: Intro to imaging data analysis</li>
+<li>Day 3: More on Pandas and Numpy: Electrophysiology data analysis</li>
+<li>Day 4: Diving Deeper into Pandas with Imaging Data</li>
+<li>Day 5: In Class Evaluation Exercise</li>
+</ul>
+</div></blockquote>
+<p>For more information, check out the <a class="reference external" href="https://github.com/dasaderi/python_neurobootcamp/blob/master/NEUS640_syllabus_2018.pdf">syllabus</a>.</p>
+</div>
+</div>
+<div class="section" id="documentation">
+<h2><a class="toc-backref" href="#id17">Documentation</a><a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="python-standard-library">
+<h3><a class="toc-backref" href="#id18">Python Standard Library</a><a class="headerlink" href="#python-standard-library" title="Permalink to this headline">¶</a></h3>
+<p>The <a class="reference external" href="https://docs.python.org/3/library/index.html#library-index">Python Standard Library</a> contains descriptions
+of built-in functions, constants, types, exceptions, and modules.</p>
+</div>
+<div class="section" id="pep-8">
+<h3><a class="toc-backref" href="#id19">PEP 8</a><a class="headerlink" href="#pep-8" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> is the official Python style guide. It outlines Python coding
+conventions to promote readability of code and consistency within and between projects.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Adopt good coding habits early. To check that your code is compliant with PEP 8 conventions, run
+<a class="reference internal" href="#pycodestyle"><span class="std std-ref">pycodestyle</span></a> on your script.</p>
+</div>
+</div>
+<div class="section" id="python-package-index-pypi">
+<h3><a class="toc-backref" href="#id20">Python Package Index (PyPI)</a><a class="headerlink" href="#python-package-index-pypi" title="Permalink to this headline">¶</a></h3>
+<p>The <a class="reference external" href="https://pypi.org/">Python Package Index (PyPI)</a> is a repository of Python packages.</p>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last"><code class="docutils literal notranslate"><span class="pre">pip</span></code> is the Python package installer program. To install a package,
+enter the command <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">package_name</span></code> into Terminal or Command Prompt.</p>
+</div>
+<p>The packages listed here form the basis of most data analysis and processing.</p>
+<div class="section" id="ipython">
+<h4>1. IPython<a class="headerlink" href="#ipython" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference external" href="https://ipython.org/">IPython</a> is an interactive Python shell. It is best
+for exploratory and demonstrative purposes, like quickly testing functions or playing around with
+new commands.</p>
+<p><em>Documentation</em>: <a class="reference external" href="https://ipython.readthedocs.io/en/stable/">https://ipython.readthedocs.io/en/stable/</a></p>
+<div class="admonition-example-of-use admonition">
+<p class="first admonition-title">Example of use</p>
+<p>In a Terminal or Command Prompt window,</p>
+<a class="last reference internal image-reference" href="_images/ipython.png"><img alt="x = 5+2 in IPython" class="align-center" src="_images/ipython.png" style="width: 709.0px; height: 158.0px;" /></a>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Try using IPython to go through the examples in this page.</p>
+</div>
+</div>
+<div class="section" id="numpy">
+<h4>2. NumPy<a class="headerlink" href="#numpy" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference external" href="https://www.numpy.org/">NumPy</a> is a library for scientific computation, which includes
+support for array and matrix operations, as well as mathematical functions.</p>
+<p><em>Documentation</em>: <a class="reference external" href="https://docs.scipy.org/doc/numpy/index.html">NumPy Manual</a></p>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p>To enable the use of NumPy and other packages during a session, it must be <em>imported</em>.
+For ease of use, it is standard for most modules to be imported using an abbreviation.
+For NumPy, it is typically “np”.</p>
+<div class="last highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+</pre></div>
+</div>
+</div>
+<div class="admonition-example-of-use admonition">
+<p class="first admonition-title">Example of use</p>
+<p>Calculate the average potential of a membrane at rest. Suppose the data was stored in
+a variable called potential, which is an array of voltages in units of millivolts.</p>
+<div class="last highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="n">potential</span><span class="p">)</span> <span class="c1"># check that potential is indeed an array</span>
+<span class="go">numpy.ndarray</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mean</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">potential</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mean</span>
+<span class="go">-70.232</span>
+</pre></div>
+</div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Comments in Python begin with <code class="docutils literal notranslate"><span class="pre">#</span></code>.</p>
+</div>
+</div>
+<div class="section" id="matplotlib">
+<h4>3. Matplotlib<a class="headerlink" href="#matplotlib" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference external" href="https://matplotlib.org/">Matplotlib</a> is a 2D plotting library. The pyplot API <a class="reference external" href="https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot">matplotlib.pyplot</a>
+is a collection of MATLAB-like functions intended for simple plots.</p>
+<p><em>Documentation</em>: <a class="reference external" href="https://matplotlib.org/users/index.html">User’s Guide</a></p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<div class="last highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="scipy">
+<h4>4. SciPy<a class="headerlink" href="#scipy" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference external" href="https://www.scipy.org/scipylib/index.html">Scipy</a> is a library that contains
+submodules for integration, interpolation, signal processing, and statistics, among others.</p>
+<p><em>Documentation</em>: <a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/">https://docs.scipy.org/doc/scipy/reference/</a></p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<div class="last highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">stats</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="pandas">
+<h4>5. pandas<a class="headerlink" href="#pandas" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference external" href="https://pandas.pydata.org/">pandas</a> is a library that provides tools for
+the creation and manipulation of data structures, as well as data analysis. It is
+best for working with tabular data (csv, xlsx) or time series data.</p>
+<p><em>Documentation</em>: <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/index.html">https://pandas.pydata.org/pandas-docs/stable/index.html</a></p>
+<div class="admonition-example-of-use admonition">
+<p class="first admonition-title">Example of use</p>
+<p>Load in mice.csv and store it in a variable.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">pands</span> <span class="kn">as</span> <span class="nn">pd</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mice</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;mice.csv&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mice</span>
+<span class="go">  mouse sex     cage</span>
+<span class="go">0  M802   M  C3M0009</span>
+<span class="go">1  M002   F  C3P0032</span>
+<span class="go">2  M194   F  C3M0009</span>
+</pre></div>
+</div>
+<p>Store the IDs of female mice in a variable called <code class="docutils literal notranslate"><span class="pre">female_ID</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">female_ID</span> <span class="o">=</span> <span class="n">mice</span><span class="o">.</span><span class="n">mouse</span><span class="p">[</span><span class="n">mice</span><span class="o">.</span><span class="n">sex</span> <span class="o">==</span> <span class="s1">&#39;F&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">female_ID</span>
+<span class="go">1    M002</span>
+<span class="go">2    M194</span>
+<span class="go">Name: mouse, dtype: object</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># OR...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">female_ID</span> <span class="o">=</span> <span class="n">mice</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;sex&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">get_group</span><span class="p">(</span><span class="s1">&#39;F&#39;</span><span class="p">)[</span><span class="s1">&#39;mouse&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">female_ID</span>
+<span class="go">1    M002</span>
+<span class="go">2    M194</span>
+<span class="go">Name: mouse, dtype: object</span>
+</pre></div>
+</div>
+<p class="last">The first method directly indexes <code class="docutils literal notranslate"><span class="pre">mice</span></code>. The second method groups the mice by sex first, from which it then gets the female group, and finally
+extracts the mouse IDs by indexing with the <code class="docutils literal notranslate"><span class="pre">mouse</span></code> column.</p>
+</div>
+</div>
+<div class="section" id="seaborn">
+<h4>6. Seaborn<a class="headerlink" href="#seaborn" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference external" href="https://seaborn.pydata.org/index.html">Seaborn</a> is a statistical data visualization
+library based on matplotlib. It enables easy creation of appealing figures,
+like violin plots and heat maps.</p>
+<p><em>Documentation</em>: <a class="reference external" href="https://seaborn.pydata.org/api.html">https://seaborn.pydata.org/api.html</a></p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<div class="last highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">seaborn</span> <span class="kn">as</span> <span class="nn">sns</span>
+</pre></div>
+</div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Check out this tutorial from EliteDataScience.com which uses a Pokémon dataset to explore the
+features of seaborn: <a class="reference external" href="https://elitedatascience.com/python-seaborn-tutorial">The Ultimate Python Seaborn Tutorial: Gotta Catch ‘Em All</a>.</p>
+</div>
+</div>
+<div class="section" id="pycodestyle">
+<span id="id11"></span><h4>7. pycodestyle<a class="headerlink" href="#pycodestyle" title="Permalink to this headline">¶</a></h4>
+<p>pycodestyle is the Python style guide checker. It was formerly known as pep8.</p>
+<p><em>Documentation</em>: <a class="reference external" href="https://pycodestyle.readthedocs.io/en/latest/">https://pycodestyle.readthedocs.io/en/latest/</a></p>
+<div class="admonition-example-of-use admonition">
+<p class="first admonition-title">Example of use</p>
+<p>Note the use of the <code class="docutils literal notranslate"><span class="pre">more</span></code> command to see the contents of example.py.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> more example.py
+<span class="go">a=&quot;Welcome to the Brain Circuits Cluster!&quot;</span>
+
+<span class="go">print(a)</span>
+
+<span class="gp">$</span> python example.py
+<span class="go">Welcome to the Brain Circuits Cluster!</span>
+
+<span class="gp">$</span> pycodestyle example.py
+<span class="go">example.py:1:2: E225 missing whitespace around operator</span>
+</pre></div>
+</div>
+<p>A space must be added before and after the equal sign. Modify the script and run it through
+pycodestyle again.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> more example.py
+<span class="go">a = &quot;Welcome to the Brain Circuits Cluster!&quot;</span>
+
+<span class="go">print(a)</span>
+
+<span class="gp">$</span> pycodestyle example.py
+
+<span class="gp">$</span>
+</pre></div>
+</div>
+<p class="last">All is well!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="anaconda-navigator">
+<h2><a class="toc-backref" href="#id21">Anaconda Navigator</a><a class="headerlink" href="#anaconda-navigator" title="Permalink to this headline">¶</a></h2>
+<p>Anaconda Navigator is a desktop graphical user interface (GUI) that can launch commonly used Python applications, such as Spyder, Jupyter Lab,
+and Jupyter Notebook.</p>
+<dl class="docutils">
+<dt>Installation instructions are available here:</dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="https://docs.anaconda.com/anaconda/install/windows/">Windows</a></li>
+<li><a class="reference external" href="https://docs.anaconda.com/anaconda/install/mac-os/">macOS</a></li>
+<li><a class="reference external" href="https://docs.anaconda.com/anaconda/install/linux/">Linux</a></li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="jupyter.html" class="btn btn-neutral float-right" title="Jupyter" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="matlab.html" class="btn btn-neutral float-left" title="MATLAB" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Glaynel Alejo
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

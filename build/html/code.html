@@ -1,0 +1,453 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Beginner’s Guide to Coding &mdash; UBC Dynamic Brain Circuits Cluster Onboarding Portfolio 2019 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'2019',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="MATLAB" href="matlab.html" />
+    <link rel="prev" title="Cluster Resources" href="cluster.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> UBC Dynamic Brain Circuits Cluster Onboarding Portfolio
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cluster.html">Cluster Resources</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Beginner's Guide to Coding</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#matlab-python">MATLAB &lt;–&gt; Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#good-practices">Good Practices</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#format-as-you-go">Format as you go</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comment-wisely">Comment wisely</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#don-t-just-copy-from-online-sources">Don’t just copy from online sources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#write-test-cases-catch-me-if-you-can">Write test cases: Catch me if you can!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#back-it-up">Back it up</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#debugging">Debugging</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#consult-the-documentation">Consult the documentation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#learn-to-read-and-write-error-messages">Learn to read and write error messages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#diagnose-with-print-statements">Diagnose with print statements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#think-first-then-google">Think first, then Google</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#use-a-debugger">Use a debugger</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#the-python-debugger-pdb">The Python Debugger (pdb)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python.html">Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jupyter.html">Jupyter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistics.html">Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">Data Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image.html">Image Analysis</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">UBC Dynamic Brain Circuits Cluster Onboarding Portfolio</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Beginner’s Guide to Coding</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/code.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="beginner-s-guide-to-coding">
+<h1><a class="toc-backref" href="#id1">Beginner’s Guide to Coding</a><a class="headerlink" href="#beginner-s-guide-to-coding" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#beginner-s-guide-to-coding" id="id1">Beginner’s Guide to Coding</a><ul>
+<li><a class="reference internal" href="#matlab-python" id="id2">MATLAB &lt;–&gt; Python</a></li>
+<li><a class="reference internal" href="#good-practices" id="id3">Good Practices</a><ul>
+<li><a class="reference internal" href="#format-as-you-go" id="id4">Format as you go</a></li>
+<li><a class="reference internal" href="#comment-wisely" id="id5">Comment wisely</a></li>
+<li><a class="reference internal" href="#don-t-just-copy-from-online-sources" id="id6">Don’t just copy from online sources</a></li>
+<li><a class="reference internal" href="#write-test-cases-catch-me-if-you-can" id="id7">Write test cases: Catch me if you can!</a></li>
+<li><a class="reference internal" href="#back-it-up" id="id8">Back it up</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#debugging" id="id9">Debugging</a><ul>
+<li><a class="reference internal" href="#consult-the-documentation" id="id10">Consult the documentation</a></li>
+<li><a class="reference internal" href="#learn-to-read-and-write-error-messages" id="id11">Learn to read and write error messages</a></li>
+<li><a class="reference internal" href="#diagnose-with-print-statements" id="id12">Diagnose with print statements</a></li>
+<li><a class="reference internal" href="#think-first-then-google" id="id13">Think first, then Google</a></li>
+<li><a class="reference internal" href="#use-a-debugger" id="id14">Use a debugger</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="matlab-python">
+<h2><a class="toc-backref" href="#id2">MATLAB &lt;–&gt; Python</a><a class="headerlink" href="#matlab-python" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-matlab notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">command</span> <span class="o">==</span> <span class="s">&#39;matlab&#39;</span>
+        <span class="n">command</span> <span class="p">=</span> <span class="s">&#39;python&#39;</span><span class="p">;</span>
+<span class="k">end</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">command</span> <span class="o">==</span> <span class="s1">&#39;python&#39;</span><span class="p">:</span>
+        <span class="n">command</span> <span class="o">=</span> <span class="s1">&#39;matlab&#39;</span>
+</pre></div>
+</div>
+<p>Take a look at the code blocks above. One is in MATLAB and the other is in Python. Which one is which?</p>
+<p>Python and MATLAB have very similar syntax so knowing one while learning the other can get tricky. It’s
+easy to mix up the commands.</p>
+<p>A couple of resources are listed below to help users of both languages find
+equivalent commands:</p>
+<ul>
+<li><p class="first">MATLAB commands in numerical Python from Mathesaurus by Vidar Bronken Gundersen</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="http://mathesaurus.sourceforge.net/matlab-numpy.html">HTML</a></li>
+<li><a class="reference external" href="http://mathesaurus.sourceforge.net/matlab-python-xref.pdf">PDF</a></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first"><a class="reference external" href="https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html">NumPy for Matlab users</a> from SciPy.org</p>
+</li>
+</ul>
+</div>
+<div class="section" id="good-practices">
+<h2><a class="toc-backref" href="#id3">Good Practices</a><a class="headerlink" href="#good-practices" title="Permalink to this headline">¶</a></h2>
+<p>Learning how to code can be frustrating but it is ultimately rewarding. As a beginner, it is best to form good habits early.
+Additionally, knowing common mistakes and some basic tricks can save a lot of time and effort.</p>
+<div class="section" id="format-as-you-go">
+<h3><a class="toc-backref" href="#id4">Format as you go</a><a class="headerlink" href="#format-as-you-go" title="Permalink to this headline">¶</a></h3>
+<p>Sometimes when you’re in the zone, the last thing you’re worried about is your coding style. As a result, your code comes out looking like
+a wild beast which is a nightmare to tame when it spits out errors.</p>
+<p>Unformatted code is harder to debug because it’s harder to read. It’s therefore best if you format as you write.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>In Python, <em>Pythonic</em> code is good code - see the section on <a class="reference internal" href="python.html#pycodestyle"><span class="std std-ref">pycodestyle</span></a> for the specifics of Python style. Advanced coders can
+take advantage of <a class="reference external" href="https://black.readthedocs.io/en/stable/installation_and_usage.html#installation">Black</a>, a Python formatter.</p>
+<p class="last">MATLAB does not have an official style guide. However, there is a popular document called <a class="reference external" href="https://www.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0">MATLAB Style Guideline 2.0</a>
+written by Richard Johnson for those interested in polishing up their code.</p>
+</div>
+</div>
+<div class="section" id="comment-wisely">
+<h3><a class="toc-backref" href="#id5">Comment wisely</a><a class="headerlink" href="#comment-wisely" title="Permalink to this headline">¶</a></h3>
+<p>Comments are essential because they describe the purpose of your code. It’s important to write code that future you and other people will undestand.
+For example, functions should always be accompanied by a description.</p>
+<p>It’s good to comment frequently but do so with some discretion - try not to comment the obvious.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">Comments begin with a <code class="docutils literal notranslate"><span class="pre">#</span></code> in Python and a <code class="docutils literal notranslate"><span class="pre">%</span></code> in MATLAB.</p>
+</div>
+</div>
+<div class="section" id="don-t-just-copy-from-online-sources">
+<h3><a class="toc-backref" href="#id6">Don’t just copy from online sources</a><a class="headerlink" href="#don-t-just-copy-from-online-sources" title="Permalink to this headline">¶</a></h3>
+<p>It’s easy to stitch together a script from code snippets you find online but it’s not a productive learning experience.
+A valuable part of learning how to code is problem-solving, so it pays off to figure it out on your own first.</p>
+<p>If you’re really stuck and need help, at least try to understand what each line of code does before using it.</p>
+</div>
+<div class="section" id="write-test-cases-catch-me-if-you-can">
+<h3><a class="toc-backref" href="#id7">Write test cases: Catch me if you can!</a><a class="headerlink" href="#write-test-cases-catch-me-if-you-can" title="Permalink to this headline">¶</a></h3>
+<p>In programming, it is best to be proactive - know when and how your code will fail. Run test cases through your functions to
+ensure that they give the expected result in every scenario.</p>
+<p>This is especially important if the code you are producing will be used by others so you can catch the errors and prevent your
+program from crashing on users.</p>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">Don’t forget to address the edge cases!</p>
+</div>
+</div>
+<div class="section" id="back-it-up">
+<h3><a class="toc-backref" href="#id8">Back it up</a><a class="headerlink" href="#back-it-up" title="Permalink to this headline">¶</a></h3>
+<p>Coding takes a lot of work so you don’t want to lose your progress when your program crashes. This lesson is painful to learn by mistake so
+back up your code regularly or better yet, version it!</p>
+<p>See the section on <a class="reference internal" href="data.html#version-control"><span class="std std-ref">Version Control</span></a> in the Data Management Page.</p>
+</div>
+</div>
+<div class="section" id="debugging">
+<h2><a class="toc-backref" href="#id9">Debugging</a><a class="headerlink" href="#debugging" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>“90% of coding is debugging. The other 10% is writing bugs”
+– <a class="reference external" href="https://twitter.com/bramcohen/status/51714087842877440">&#64;bramcohen</a></div></blockquote>
+<p>There is a good reason why this tweet has thousands of retweets and likes - because
+it’s sometimes true. Here are some tips when expectation <code class="docutils literal notranslate"><span class="pre">!=</span></code> reality when coding.</p>
+<div class="section" id="consult-the-documentation">
+<h3><a class="toc-backref" href="#id10">Consult the documentation</a><a class="headerlink" href="#consult-the-documentation" title="Permalink to this headline">¶</a></h3>
+<p>Debugging can be as easy as checking the documentation. When the output of your code doesn’t make
+sense, it might be because:</p>
+<ul class="simple">
+<li>a command you’re using does not do what you think it does</li>
+<li>you’re not providing the correct input argument(s) to a command</li>
+<li>you forgot to specify a value for a default argument of a command</li>
+</ul>
+<p>For all these cases, reading the documentation carefully will likely resolve the issue.</p>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">Before writing your own function, check if a command already exists for the result you require!</p>
+</div>
+</div>
+<div class="section" id="learn-to-read-and-write-error-messages">
+<h3><a class="toc-backref" href="#id11">Learn to read and write error messages</a><a class="headerlink" href="#learn-to-read-and-write-error-messages" title="Permalink to this headline">¶</a></h3>
+<p>As with everything else in life, coding requires you to learn from your mistakes but before you can learn from them,
+you must first know exactly what those mistakes are and what caused them.</p>
+<p>Errors can be more puzzling than the code that caused them. However, often times, they are actually
+helpful and descriptive - that is, if you know how to read them. It takes practice but with time and experience,
+you’ll have an inkling about what’s wrong with your code even with the vaguest of error messages.</p>
+<p>Before you start coding, take some time to read up on the documentation about error handling.</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="https://docs.python.org/3.7/tutorial/errors.html">Errors and Exceptions</a> in Python</li>
+<li><a class="reference external" href="https://www.mathworks.com/help/matlab/error-handling.html">Error Handling</a> in MATLAB</li>
+</ul>
+</div></blockquote>
+<p>Knowing how to read error messages will also help you once you start writing your own programs. To make sure your programs
+are user-friendly, make sure you anticipate potential mistakes your users may make so you can write clear error messages to
+help them (remember <a class="reference internal" href="#write-test-cases-catch-me-if-you-can"><span class="std std-ref">this</span></a> good practice?).</p>
+</div>
+<div class="section" id="diagnose-with-print-statements">
+<h3><a class="toc-backref" href="#id12">Diagnose with print statements</a><a class="headerlink" href="#diagnose-with-print-statements" title="Permalink to this headline">¶</a></h3>
+<p>One of the simplest ways to find out where your code is going wrong is to insert print statements between lines.</p>
+<div class="admonition-example admonition">
+<p class="first admonition-title">Example</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">some_range</span><span class="p">:</span>
+<span class="go">...:    # insert step 1 here</span>
+<span class="go">...:    print(&quot;Step 1 complete!&quot;)</span>
+<span class="go">...:    # insert step 2 here</span>
+<span class="go">...:    print(&quot;Step 2 complete!&quot;)</span>
+</pre></div>
+</div>
+<p class="last">When you run the for loop, you’ll know exactly if and where a bug occurs by which print statement fails to appear.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>Python has a standard <a class="reference external" href="https://docs.python.org/3/library/logging.html">logging</a> module, which can track events while
+a program runs. Logging can be used to check and record the execution of your code, including errors and warnings. This is a more
+robust and efficient approach to debugging than print statements.</p>
+<div class="last highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">logging</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="think-first-then-google">
+<h3><a class="toc-backref" href="#id13">Think first, then Google</a><a class="headerlink" href="#think-first-then-google" title="Permalink to this headline">¶</a></h3>
+<p>It’s tempting to Google an error straightaway but this prevents you from building an intuition for debugging.
+Spend some time thinking about the logic of your code first; often times, there is a disparity between what you want your computer to do and what it is actually doing.</p>
+<p>Doing this will familiarize you with solutions to errors that may pop up again in the future and it may even help you foresee the same errors before you hit <span class="guilabel">Run</span>.</p>
+</div>
+<div class="section" id="use-a-debugger">
+<h3><a class="toc-backref" href="#id14">Use a debugger</a><a class="headerlink" href="#use-a-debugger" title="Permalink to this headline">¶</a></h3>
+<p>A debugger should only be your last line of defense. For beginners, it is better to establish your ability to diagnose problems before
+relying on a debugger.</p>
+<div class="section" id="the-python-debugger-pdb">
+<h4>The Python Debugger (pdb)<a class="headerlink" href="#the-python-debugger-pdb" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference external" href="https://docs.python.org/3/library/pdb.html">pdb</a> is a module from the Python Standard Library that interactively debugs Python programs.
+This module enables coders to step through their programs line-by-line as it executes.</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger">How To Use the Python Debugger</a>, a tutorial
+that highlights the features of pdb written by Lisa Tagliaferri for DigitalOcean</li>
+<li><a class="reference external" href="https://github.com/spiside/pdb-tutorial">pdb Tutorial</a>, a tutorial that uses an example of a Python script for a dice game to illustrate the use of pdb.</li>
+</ul>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>A <strong>breakpoint</strong> is used to pause a running program at a specific location and <em>break</em> into the debugger, allowing
+you to step through the code following the breakpoint.</p>
+<p>In Python, a breakpoint can be hard-coded into a program by first importing the pdb module then inserting the breakpoint method
+above the line at which you would like the debugging session to begin.</p>
+<div class="last highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pdb</span>
+<span class="c1"># some code in between</span>
+<span class="n">pdb</span><span class="o">.</span><span class="n">set_trace</span><span class="p">()</span>
+<span class="c1"># debugger begins at this line</span>
+</pre></div>
+</div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">For versions 3.7 and onwards, a built-in <code class="docutils literal notranslate"><span class="pre">breakpoint()</span></code> function can replace <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">pdb;</span> <span class="pre">pdb.set_trace()</span></code>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="matlab.html" class="btn btn-neutral float-right" title="MATLAB" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="cluster.html" class="btn btn-neutral float-left" title="Cluster Resources" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Glaynel Alejo
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

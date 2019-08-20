@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Search &mdash; UBC Dynamic Brain Circuits Cluster Onboarding Portfolio 2019 documentation</title>
+  <title>Image Analysis &mdash; UBC Dynamic Brain Circuits Cluster Onboarding Portfolio 2019 documentation</title>
   
 
   
@@ -35,7 +35,6 @@
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        <script type="text/javascript" src="_static/searchtools.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -45,7 +44,8 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Data Management" href="data.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -72,7 +72,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -90,7 +90,7 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cluster.html">Cluster Resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="code.html">Beginner's Guide to Coding</a></li>
@@ -99,7 +99,14 @@
 <li class="toctree-l1"><a class="reference internal" href="jupyter.html">Jupyter</a></li>
 <li class="toctree-l1"><a class="reference internal" href="statistics.html">Statistics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data.html">Data Management</a></li>
-<li class="toctree-l1"><a class="reference internal" href="image.html">Image Analysis</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Image Analysis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#imagej">ImageJ</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fiji">Fiji</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#cell-profiler">Cell Profiler</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -145,12 +152,14 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Search</li>
+      <li>Image Analysis</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
+            <a href="_sources/image.rst.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -162,24 +171,62 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Please activate JavaScript to enable the search
-      functionality.
-    </p>
-  </div>
-  </noscript>
+  <div class="section" id="image-analysis">
+<h1><a class="toc-backref" href="#id4">Image Analysis</a><a class="headerlink" href="#image-analysis" title="Permalink to this headline">¶</a></h1>
+<p>There are two main image analysis software programs in neuroscience, namely ImageJ and Cell Profiler, both of
+which are free, open-source, and have a large community of users.</p>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#image-analysis" id="id4">Image Analysis</a><ul>
+<li><a class="reference internal" href="#imagej" id="id5">ImageJ</a><ul>
+<li><a class="reference internal" href="#fiji" id="id6">Fiji</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cell-profiler" id="id7">Cell Profiler</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="imagej">
+<h2><a class="toc-backref" href="#id5">ImageJ</a><a class="headerlink" href="#imagej" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://imagej.nih.gov/ij/">ImageJ</a> is a Java image processing and analysis program.</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="https://imagej.net/Welcome">Wiki</a></li>
+<li><a class="reference external" href="https://imagej.nih.gov/ij/docs/guide/146.html">User Guide</a></li>
+</ul>
+</div></blockquote>
+<div class="section" id="fiji">
+<h3><a class="toc-backref" href="#id6">Fiji</a><a class="headerlink" href="#fiji" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://fiji.sc/">Fiji</a> is an ImageJ distribution with built-in plugins. It is the
+recommended way to use ImageJ.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">ImageJ commands can be integrated into Python code. To see how, check out the materials from the <a class="reference external" href="https://github.com/NINC-UBC/MSC2019-ImageJ">ImageJ Macro Workshop</a>
+hosted by NINC during the 2019 MSC-SMC Annual Meeting at UBC.</p>
+</div>
+</div>
+</div>
+<div class="section" id="cell-profiler">
+<h2><a class="toc-backref" href="#id7">Cell Profiler</a><a class="headerlink" href="#cell-profiler" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://cellprofiler.org/">Cell Profiler</a> is a cell image analysis software that enables
+users to construct pipelines for cell identification and measurement of phenotypes including morphology, intensity, texture, and size.</p>
+</div>
+</div>
 
-  
-  <div id="search-results">
-  
-  </div>
 
            </div>
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="data.html" class="btn btn-neutral float-left" title="Data Management" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -212,14 +259,7 @@
   
   
     
-  
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
    
-
 
 </body>
 </html>
