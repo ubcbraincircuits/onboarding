@@ -139,10 +139,7 @@ Before you start coding, take some time to read up on the documentation about er
 Knowing how to read error messages will also help you once you start writing your own programs. To make sure your programs
 are user-friendly, make sure you anticipate potential mistakes your users may make so you can write clear error messages to
 help them (remember :ref:`this<Write test cases: Catch me if you can!>` good practice?).
-
-.. todo::
-	logging module in Python, pytest, unittest, nose
-
+		
 Diagnose with print statements
 ==============================
 
@@ -160,7 +157,18 @@ One of the simplest ways to find out where your code is going wrong is to insert
 		...:	# insert step 2 here 
 		...: 	print("Step 2 complete!")
 	
-	When you run the for loop, you'll know exactly where the bug occurs by which print statement fails to appear. 
+	When you run the for loop, you'll know exactly if and where a bug occurs by which print statement fails to appear. 
+	
+.. tip::
+	Python has a standard `logging <https://docs.python.org/3/library/logging.html>`_ module, which can track events while
+	a program runs. Logging can be used to check and record the execution of your code, including errors and warnings. This is a more 
+	robust and efficient approach to debugging than print statements. 
+	
+	.. highlight
+	
+	::
+	
+		>>> import logging
 		 
 Think first, then Google
 ========================
@@ -179,13 +187,23 @@ relying on a debugger.
 The Python Debugger (pdb)
 -------------------------
 
-`pdb <https://docs.python.org/3/library/pdb.html>`_ is a module that interactively debugs Python programs.
+`pdb <https://docs.python.org/3/library/pdb.html>`_ is a module from the Python Standard Library that interactively debugs Python programs.
+This module enables coders to step through their programs line-by-line as it executes.
 
-1. Know how to read error messages.
-2. Don't just copy from online sources. 
-3. Consult the documentation.
-4. Diagnose with print statements.
-5. Think first, then Google (figure out what you want your code to do then search for the corresponding functions).
-	- Check if a function already exists for what you want to do. 
-6. Use a debugger (breakpoint() after 3.7, pdb for before).
+.. note:: 
+	A **breakpoint** is used to pause a running program at a specific location and *break* into the debugger, allowing 
+	you to step through the code following the breakpoint. 
+	
+	In Python, a breakpoint can be hard-coded into a program by first importing the pdb module then inserting the breakpoint method 
+	above the line at which you would like the debugging session to begin. 
+	
+	.. code-block:: python
+	
+		import pdb
+		# some code in between
+		pdb.set_trace()
+		# debugger begins at this line
+		
+		
+
 
