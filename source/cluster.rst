@@ -47,7 +47,8 @@ drop-in neuroscience meeting where interested labs can have a data show-and-tell
 conference report, and/or technique presentation using the facilities of the NINC. Databinge aims to promote
 practical training and collaboration among the cluster labs. 
 
-Databinge is at 4:00-5:30 pm on Fridays in Koener F103. 
+Databinge is at 4:00-5:30 pm on Fridays in Koener F103. Check out the `calendar <https://ninc.centreforbrainhealth.ca/community_events>`_
+to see the schedule. 
 
 .. attention::
 	There's free pizza! 
