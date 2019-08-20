@@ -7,10 +7,6 @@ With big data comes big responsibility.
 .. contents:: Table of Contents
 	:depth: 3
 	
-***************************
-Data Management White Paper
-***************************
-
 *****************
 Data Repositories
 *****************
