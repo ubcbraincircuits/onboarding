@@ -80,10 +80,8 @@ Git
 `GitHub <https://github.com/>`_ hosts Git repositories. Check out the cluster's `GitHub Team repository <https://github.com/ubcbraincircuits>`_.
 Each lab can be added as a Team. If interested, please contact Jeffrey LeDue (jledue@mail.ubc.ca).
 
-
 .. tip::
 	Learning Git can be a tough task. Here are some resources to help you get started:
 	
 		- `Git Handbook <https://guides.github.com/introduction/git-handbook/>`_, a 10-minute read on the basics of Git and its integration with GitHub
-		
 		- `An introduction to Git: what it is, and how to use it <https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/>`_, a tutorial on Git commands by freeCodeCamp 
