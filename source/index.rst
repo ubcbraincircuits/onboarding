@@ -10,8 +10,8 @@ Welcome to UBC Dynamic Brain Circuits Cluster Onboarding Portfolio's documentati
    :maxdepth: 2
    :caption: Contents:
    
-   Introduction <intro>
-   Cluster Resources <cluster>
+   Introduction <intro>   
+   Cluster Resources <cluster>   
    Beginner's Guide to Coding <code>
    MATLAB <matlab>
    Python <python>
