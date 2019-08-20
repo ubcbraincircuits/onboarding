@@ -248,6 +248,7 @@ like violin plots and heat maps.
 	Check out this tutorial from EliteDataScience.com which uses a Pokémon dataset to explore the 
 	features of seaborn: `The Ultimate Python Seaborn Tutorial: Gotta Catch 'Em All <https://elitedatascience.com/python-seaborn-tutorial>`_.
 
+.. _pycodestyle:
 		
 7. pycodestyle
 --------------
