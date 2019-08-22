@@ -57,6 +57,9 @@ The course is structured around five Jupyter Notebooks:
 	
 For more information, check out the `syllabus <https://github.com/dasaderi/python_neurobootcamp/blob/master/NEUS640_syllabus_2018.pdf>`_.
 
+.. tip::
+	To download a repository from GitHub, click on the green button ‘Clone or download’ then click ‘Download Zip’. 
+
 Python Bootcamp (Allen Institute for Brain Science) 
 ===================================================
 
