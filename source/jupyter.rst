@@ -45,7 +45,9 @@ Jupyter Notebooks can include inline and displayed mathematical equations writte
 	
 	In a Markdown cell,
 		
-		.. code-block:: python
+		.. highlight:: python
+		
+		:: 
 
 			The Nernst Equation is as follows
 			
