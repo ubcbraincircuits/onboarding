@@ -42,10 +42,12 @@ NINC MATLAB Tutorials
 The `NeuroImaging and NeuroComputation Centre (NINC) <https://ninc.centreforbrainhealth.ca/>`__
 offers free MATLAB tutorials in Koerner F103. 
 
-The tutorial materials are available on the `NINC GitHub <https://github.com/NINC-UBC/MATLABTutorials>`_. To download, 
-click the green button 'Clone or download' then click 'Download Zip'.
+The tutorial materials are available on the `NINC GitHub <https://github.com/NINC-UBC/MATLABTutorials>`_. 
 
-If interested in these tutorials, please contact Jeffrey LeDue through email (jledue@mail.ubc.ca). 
+If interested in participating in these tutorials, please contact Jeffrey LeDue through email (jledue@mail.ubc.ca). 
+
+.. tip::
+	To download a repository from GitHub, click on the green button 'Clone or download' then click 'Download Zip'.
 
 *************
 MATLAB Online
