@@ -210,7 +210,18 @@ This module enables coders to step through their programs line-by-line as it exe
 		
 .. tip::
 	For versions 3.7 and onwards, a built-in ``breakpoint()`` function can replace ``import pdb; pdb.set_trace()``.
-		
-		
+	
+Debugging in MATLAB
+-------------------
 
+MATLAB automatically generates warnings for lines that may cause errors. These warnings are indicated by orange
+highlight within the script and as orange lines in a narrow sidebar on the right-hand side of the Editor. 
+
+Debugging in MATLAB can be done in one of two ways:
+
+	1. point-and-click through the Editor/Debugger: `Debug a MATLAB Program <https://www.mathworks.com/help/matlab/matlab_prog/debugging-process-and-features.html>`_
+	2. through debugging functions in the Command Window: `Debugging and Analysis <https://www.mathworks.com/help/matlab/debugging-code.html?s_tid=CRUX_lftnav>`_
+		
+.. tip::
+	In MATLAB, ``dbstop`` is the equivalent function to ``breakpoint()`` in Python. 
 
