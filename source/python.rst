@@ -63,12 +63,12 @@ For more information, check out the `syllabus <https://github.com/dasaderi/pytho
 Python Bootcamp (Allen Institute for Brain Science) 
 ===================================================
 
-This Python Bootcamp is from the `2018 Summer Workshop on the Dynamic Brain (SWDB) <http://courses.washington.edu/braindyn/>`_,
+This Python Bootcamp is from the `2019 Summer Workshop on the Dynamic Brain (SWDB) <http://courses.washington.edu/braindyn/>`_,
 a two-week, project-based course co-hosted by the `Allen Institute for Brain Science <https://alleninstitute.org/>`_ and the Computational 
 Neuroscience Program at the University of Washington. 
 
-The materials are available on the `SWDB_2018 GitHub <https://github.com/AllenInstitute/SWDB_2018>`_ under the folder "PythonBootcamp",
-which includes 11 Jupyter Notebooks: 
+The materials are available on the `SWDB_2019 GitHub <https://github.com/AllenInstitute/SWDB_2019>`_ under the folder "PythonBootcamp",
+which includes 8 Jupyter Notebooks: 
 
 	- 00: Introduction
 	- 01: Basic Python I - Object and Data Structures
@@ -79,10 +79,7 @@ which includes 11 Jupyter Notebooks:
 	- 06: Introduction to Matplotlib
 	- 07: Introduction to Pandas
 	- 08: Development Tools
-	- 09: Bike Crossing (exercise)
-	- 10: GLM Exercise 
-	- 11: Image Data
-		
+
 *************
 Documentation
 *************
