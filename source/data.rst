@@ -36,8 +36,8 @@ curated large-scale data preservation with data discovery across Canadian resear
 in the UBC Brain Circuit's Data Management white paper for more information.
 
 Datasets in FRDR are searchable by anyone, however FRDR is currently in Limited Production and therefore only accepts
-data deposits from a select number of research groups. The cluster is pleased to be the first in Canada and in UBC to 
-deposit a dataset into FRDR.
+data deposits from a select number of research groups. The cluster is pleased to be one of four Special Storage Groups
+and the first in UBC to deposit a dataset into FRDR.
 
 PIs can deposit datasets into the `cluster's FRDR collection <https://www.frdr.ca/repo/handle/ubcbraincircuits>`_ by becoming
 a depositor. Contact Jeffrey LeDue (jledue@mail.ubc.ca) to request access.
