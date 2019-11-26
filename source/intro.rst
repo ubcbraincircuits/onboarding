@@ -12,15 +12,13 @@ Introduction
 Welcome to the Dynamic Brain Circuits in Health and Disease research cluster! The Brain Circuits cluster is composed of
 30 researchers focused on the study of brain connections and their dynamic changes during development, learning, and disease.
 
-This onboarding portfolio is intended to introduce new cluster members, both graduate students and postdoctoral fellows, 
-to tools and resources that they may need as they begin their research at UBC. The portfolio is designed as a quick start guide
-and is therefore recommended as a reference for unfamiliar things that new members may encounter or new skills they may need to acquire. 
+This onboarding portfolio is intended to introduce new cluster members and neuroscience graduate students to tools and resources that they may need as they begin their research at UBC. 
+The portfolio is designed as a quick start guide and is therefore recommended as a reference for unfamiliar things that new members may encounter or new skills they may need to acquire. 
 
-Most of what is presented here is central to neuroscience research and the portfolio encourages new members to take advantage of the resources
-available online that are catered directly to the needs of neuroscientists.
+Most of what is presented here is central to neuroscience research and the portfolio encourages the use of free resources that are catered directly to the needs of neuroscientists.
 
 .. note::
-	The cluster will be releasing a white paper on data storage and sharing this year. Stay tuned! 
+	The cluster has released a white paper on data amanagement, including data storage and sharing. Check it out `here <https://ubcbraincircuits.readthedocs.io/en/latest/index.html>`__!
 
 
 Labs and Investigators
